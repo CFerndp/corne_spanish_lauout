@@ -11,7 +11,8 @@
 .foot{font-size:13px;fill:#8a877e}
 </style>
 <text x="40" y="64" class="title">Corne · layout español para desarrollo</text>
-<text x="40" y="90" class="sub">SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · las teclas con ? están sin confirmar</text>
+<text x="40" y="90" class="sub">SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · teclas con ? = posición sin confirmar</text>
+<text x="40" y="112" class="sub">La fila de pulgares se dibuja alineada a la matriz, no a escala física</text>
 <text x="40" y="162" class="lname">0 · BASE</text>
 <text x="40" y="186" class="lnote">QWERTY español (SO en layout 'es')</text>
 <rect x="40" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
@@ -153,7 +154,7 @@
 <rect x="410" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
 <text x="443.0" y="682.0" class="klbl" style="font-size:17px">Tab</text>
 <rect x="530" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="682.0" class="klbl" style="font-size:17px">▽</text>
+<text x="563.0" y="682.0" class="klbl" style="font-size:17px">AltGr</text>
 <rect x="604" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
 <text x="637.0" y="682.0" class="klbl" style="font-size:17px">←</text>
 <rect x="678" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>

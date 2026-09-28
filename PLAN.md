@@ -44,8 +44,9 @@ Dos hallazgos que vertebran el diseño:
 
 ## 2. Qué está roto hoy para programar
 
-- **`'` (apóstrofo) no se puede escribir**: `[3][10]` es `KC_QUOTE`, que en `es` es la
-  tilde aguda muerta (´), no el apóstrofo. El apóstrofo es `KC_MINUS`.
+- **`'` (apóstrofo) está mal colocado**: `[3][10]` es `KC_QUOTE`, que en `es` es la tilde
+  aguda muerta (´), no el apóstrofo. El apóstrofo (`KC_MINUS`) solo se alcanza hoy con
+  `MO(1)` + la tecla de retroceso. Pasa a la fila base de SYM, bajo el meñique derecho.
 - **`/` no está en ninguna capa** (es `LSFT(KC_7)`): rutas, cierres de etiqueta, divisiones.
 - **`<` y `>` no existen**: hacen falta `KC_NONUS_BSLASH` / `LSFT(KC_NONUS_BSLASH)`.
 - La capa 1 tiene restos de plantilla del fabricante (`KC_D/F/G` sueltos en la fila de
@@ -63,6 +64,8 @@ Dos hallazgos que vertebran el diseño:
 | **Sin home-row mods** en v1 | 46 teclas con Shift/Ctrl dedicados; los HRM cuestan semanas de reentreno y fallan al teclear rápido. Queda anotado como posible v2 |
 | Fila superior de SYM = fila numérica con Shift (`! " # $ % & / ( ) =`) | mnemotecnia: misma posición que los números de la capa 1 |
 | `` ` `` y `^` como teclas muertas (sin macro) en v1 | ver §5 |
+| `AltGr` (`KC_RALT`) se mantiene en `[1][6]` de la capa 1 | es la vía de escape para cualquier símbolo `es` que no esté mapeado, y hace de Alt derecho en atajos |
+| Se **pierde `RCTRL`** en `[0][6]` (pasa a `< > \|`) | `Ctrl` sigue en el pulgar izquierdo; si lo usas a diario, dímelo y busco otro sitio para `< >` |
 
 ## 4. Las capas
 
@@ -93,7 +96,14 @@ toda la matriz, pero estas 7 posiciones no se pueden deducir del fichero
 [3][9] = BSPC      [3][10] = ´   [3][11] = SUPR   (abajo a la derecha)
 ```
 
-**Pregunta:** ¿el diagrama de la capa 0 coincide con tu teclado físico?
+No te fíes del dibujo para contestar: la fila de pulgares está dibujada alineada a la
+matriz, no a la forma real del cluster. La manera limpia de resolverlo es una de estas dos:
+
+1. **Vial → pestaña «Matrix tester»**: pulsas una tecla física y te marca la celda de la
+   matriz que se activa. Con hacerlo sobre esas 7 teclas queda cerrado sin inferencias.
+2. **Una foto del teclado**: resuelve de un golpe si son 42 o 46 teclas y cómo es el cluster.
+
+**Pregunta:** ¿puedes pasarme el resultado del matrix tester para esas 7, o una foto?
 
 ### (b) Teclas muertas `` ` `` y `^`
 

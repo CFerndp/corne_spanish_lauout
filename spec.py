@@ -26,7 +26,7 @@ L1 = [  # NUM / NAV  -- pulgar izquierdo
     [("KC_TAB","Tab"), ("KC_1","1"), ("KC_2","2"), ("KC_3","3"), ("KC_4","4"), ("KC_5","5"),
      ___, ("KC_6","6"), ("KC_7","7"), ("KC_8","8"), ("KC_9","9"), ("KC_0","0")],
     [___, ("KC_LGUI","Super"), ("KC_LALT","Alt"), ("KC_LSHIFT","Shift"), ("KC_LCTRL","Ctrl"), ("KC_TAB","Tab"),
-     ___, ("KC_LEFT","←"), ("KC_DOWN","↓"), ("KC_UP","↑"), ("KC_RIGHT","→"), ("KC_INSERT","Ins")],
+     ("KC_RALT","AltGr"), ("KC_LEFT","←"), ("KC_DOWN","↓"), ("KC_UP","↑"), ("KC_RIGHT","→"), ("KC_INSERT","Ins")],
     [___, ("LCTL(KC_Z)","Undo"), ("LCTL(KC_X)","Cut"), ("LCTL(KC_C)","Copy"), ("LCTL(KC_V)","Paste"), ("LCTL(LSFT(KC_Z))","Redo"),
      HOLE, ("KC_HOME","Home"), ("KC_PGDOWN","PgDn"), ("KC_PGUP","PgUp"), ("KC_END","End"), ("KC_APPLICATION","Menu")],
     [___, ___, HOLE, ___, ___, ___,
