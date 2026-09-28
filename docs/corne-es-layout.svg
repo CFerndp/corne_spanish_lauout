@@ -1,0 +1,400 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1006" height="1686" viewBox="0 0 1006 1686" font-family="DejaVu Sans, Inter, Helvetica, sans-serif">
+<rect width="1006" height="1686" fill="#faf9f6"/>
+<style>
+.title{font-size:30px;font-weight:700;fill:#1c1b19}
+.sub{font-size:15px;fill:#8a877e}
+.lname{font-size:20px;font-weight:700;fill:#b4532a}
+.lnote{font-size:13px;fill:#8a877e}
+.klbl{fill:#1c1b19;text-anchor:middle}
+.kmo{fill:#b4532a;font-weight:700;text-anchor:middle}
+.badge{font-size:12px;font-weight:700;fill:#a8791a;text-anchor:end}
+.foot{font-size:13px;fill:#8a877e}
+</style>
+<text x="40" y="64" class="title">Corne · layout español para desarrollo</text>
+<text x="40" y="90" class="sub">SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · las teclas con ? están sin confirmar</text>
+<text x="40" y="162" class="lname">0 · BASE</text>
+<text x="40" y="186" class="lnote">QWERTY español (SO en layout 'es')</text>
+<rect x="40" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="248.0" class="klbl" style="font-size:17px">Esc</text>
+<rect x="114" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="248.0" class="klbl" style="font-size:17px">Q</text>
+<rect x="188" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="248.0" class="klbl" style="font-size:17px">W</text>
+<rect x="262" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="248.0" class="klbl" style="font-size:17px">E</text>
+<rect x="336" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="248.0" class="klbl" style="font-size:17px">R</text>
+<rect x="410" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="248.0" class="klbl" style="font-size:17px">T</text>
+<rect x="530" y="214" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="563.0" y="248.0" class="klbl" style="font-size:17px">&lt; &gt;</text>
+<text x="589" y="229" class="badge">?</text>
+<rect x="604" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="248.0" class="klbl" style="font-size:17px">Y</text>
+<rect x="678" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="248.0" class="klbl" style="font-size:17px">U</text>
+<rect x="752" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="248.0" class="klbl" style="font-size:17px">I</text>
+<rect x="826" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="248.0" class="klbl" style="font-size:17px">O</text>
+<rect x="900" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="248.0" class="klbl" style="font-size:17px">P</text>
+<rect x="40" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="312.0" class="klbl" style="font-size:13px">Compose</text>
+<rect x="114" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="312.0" class="klbl" style="font-size:17px">A</text>
+<rect x="188" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="312.0" class="klbl" style="font-size:17px">S</text>
+<rect x="262" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="312.0" class="klbl" style="font-size:17px">D</text>
+<rect x="336" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="312.0" class="klbl" style="font-size:17px">F</text>
+<rect x="410" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="312.0" class="klbl" style="font-size:17px">G</text>
+<rect x="530" y="278" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="563.0" y="312.0" class="klbl" style="font-size:17px">Shift</text>
+<text x="589" y="293" class="badge">?</text>
+<rect x="604" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="312.0" class="klbl" style="font-size:17px">H</text>
+<rect x="678" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="312.0" class="klbl" style="font-size:17px">J</text>
+<rect x="752" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="312.0" class="klbl" style="font-size:17px">K</text>
+<rect x="826" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="312.0" class="klbl" style="font-size:17px">L</text>
+<rect x="900" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="312.0" class="klbl" style="font-size:17px">Ñ</text>
+<rect x="40" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="376.0" class="klbl" style="font-size:17px">Shift</text>
+<rect x="114" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="376.0" class="klbl" style="font-size:17px">Z</text>
+<rect x="188" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="376.0" class="klbl" style="font-size:17px">X</text>
+<rect x="262" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="376.0" class="klbl" style="font-size:17px">C</text>
+<rect x="336" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="376.0" class="klbl" style="font-size:17px">V</text>
+<rect x="410" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="376.0" class="klbl" style="font-size:17px">B</text>
+<rect x="604" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="376.0" class="klbl" style="font-size:17px">N</text>
+<rect x="678" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="376.0" class="klbl" style="font-size:17px">M</text>
+<rect x="752" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="376.0" class="klbl" style="font-size:17px">, ;</text>
+<rect x="826" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="376.0" class="klbl" style="font-size:17px">. :</text>
+<rect x="900" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="376.0" class="klbl" style="font-size:17px">- _</text>
+<rect x="40" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="73.0" y="440.0" class="klbl" style="font-size:17px">Alt</text>
+<text x="99" y="421" class="badge">?</text>
+<rect x="114" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="147.0" y="440.0" class="klbl" style="font-size:17px">Tab</text>
+<text x="173" y="421" class="badge">?</text>
+<rect x="262" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="440.0" class="klbl" style="font-size:17px">Ctrl</text>
+<rect x="336" y="406" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
+<text x="369.0" y="431.0" class="kmo" style="font-size:17px">NUM</text>
+<text x="369.0" y="446.0" class="kmo" style="font-size:17px">NAV</text>
+<rect x="410" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="440.0" class="klbl" style="font-size:17px">Enter</text>
+<rect x="530" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="440.0" class="klbl" style="font-size:17px">Space</text>
+<rect x="604" y="406" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
+<text x="637.0" y="440.0" class="kmo" style="font-size:17px">SYM</text>
+<rect x="678" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="440.0" class="klbl" style="font-size:17px">Super</text>
+<rect x="752" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="785.0" y="440.0" class="klbl" style="font-size:17px">Bksp</text>
+<text x="811" y="421" class="badge">?</text>
+<rect x="826" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="859.0" y="440.0" class="klbl" style="font-size:17px">´ ¨</text>
+<text x="885" y="421" class="badge">?</text>
+<rect x="900" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="933.0" y="440.0" class="klbl" style="font-size:17px">Supr</text>
+<text x="959" y="421" class="badge">?</text>
+<text x="40" y="532" class="lname">1 · NUM / NAV</text>
+<text x="40" y="556" class="lnote">pulgar izquierdo</text>
+<rect x="40" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="618.0" class="klbl" style="font-size:17px">Tab</text>
+<rect x="114" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="618.0" class="klbl" style="font-size:17px">1</text>
+<rect x="188" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="618.0" class="klbl" style="font-size:17px">2</text>
+<rect x="262" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="618.0" class="klbl" style="font-size:17px">3</text>
+<rect x="336" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="618.0" class="klbl" style="font-size:17px">4</text>
+<rect x="410" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="618.0" class="klbl" style="font-size:17px">5</text>
+<rect x="530" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="618.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="618.0" class="klbl" style="font-size:17px">6</text>
+<rect x="678" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="618.0" class="klbl" style="font-size:17px">7</text>
+<rect x="752" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="618.0" class="klbl" style="font-size:17px">8</text>
+<rect x="826" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="618.0" class="klbl" style="font-size:17px">9</text>
+<rect x="900" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="618.0" class="klbl" style="font-size:17px">0</text>
+<rect x="40" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="682.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="682.0" class="klbl" style="font-size:17px">Super</text>
+<rect x="188" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="682.0" class="klbl" style="font-size:17px">Alt</text>
+<rect x="262" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="682.0" class="klbl" style="font-size:17px">Shift</text>
+<rect x="336" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="682.0" class="klbl" style="font-size:17px">Ctrl</text>
+<rect x="410" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="682.0" class="klbl" style="font-size:17px">Tab</text>
+<rect x="530" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="682.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="682.0" class="klbl" style="font-size:17px">←</text>
+<rect x="678" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="682.0" class="klbl" style="font-size:17px">↓</text>
+<rect x="752" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="682.0" class="klbl" style="font-size:17px">↑</text>
+<rect x="826" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="682.0" class="klbl" style="font-size:17px">→</text>
+<rect x="900" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="682.0" class="klbl" style="font-size:17px">Ins</text>
+<rect x="40" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="746.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="746.0" class="klbl" style="font-size:17px">Undo</text>
+<rect x="188" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="746.0" class="klbl" style="font-size:17px">Cut</text>
+<rect x="262" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="746.0" class="klbl" style="font-size:17px">Copy</text>
+<rect x="336" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="746.0" class="klbl" style="font-size:17px">Paste</text>
+<rect x="410" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="746.0" class="klbl" style="font-size:17px">Redo</text>
+<rect x="604" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="746.0" class="klbl" style="font-size:17px">Home</text>
+<rect x="678" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="746.0" class="klbl" style="font-size:17px">PgDn</text>
+<rect x="752" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="746.0" class="klbl" style="font-size:17px">PgUp</text>
+<rect x="826" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="746.0" class="klbl" style="font-size:17px">End</text>
+<rect x="900" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="746.0" class="klbl" style="font-size:17px">Menu</text>
+<rect x="40" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="262" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="336" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="410" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="530" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="776" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
+<text x="637.0" y="810.0" class="kmo" style="font-size:17px">FN</text>
+<rect x="678" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="752" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="826" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="900" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
+<text x="40" y="902" class="lname">2 · SYM</text>
+<text x="40" y="926" class="lnote">pulgar derecho</text>
+<rect x="40" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="988.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="988.0" class="klbl" style="font-size:17px">!</text>
+<rect x="188" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="988.0" class="klbl" style="font-size:17px">&quot;</text>
+<rect x="262" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="988.0" class="klbl" style="font-size:17px">#</text>
+<rect x="336" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="988.0" class="klbl" style="font-size:17px">$</text>
+<rect x="410" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="988.0" class="klbl" style="font-size:17px">%</text>
+<rect x="530" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="988.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="988.0" class="klbl" style="font-size:17px">&amp;</text>
+<rect x="678" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="988.0" class="klbl" style="font-size:17px">/</text>
+<rect x="752" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="988.0" class="klbl" style="font-size:17px">(</text>
+<rect x="826" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="988.0" class="klbl" style="font-size:17px">)</text>
+<rect x="900" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="988.0" class="klbl" style="font-size:17px">=</text>
+<rect x="40" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1052.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1052.0" class="klbl" style="font-size:17px">\</text>
+<rect x="188" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="1052.0" class="klbl" style="font-size:17px">_</text>
+<rect x="262" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1052.0" class="klbl" style="font-size:17px">-</text>
+<rect x="336" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1052.0" class="klbl" style="font-size:17px">+</text>
+<rect x="410" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1052.0" class="klbl" style="font-size:17px">*</text>
+<rect x="530" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="1052.0" class="klbl" style="font-size:17px">|</text>
+<rect x="604" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1052.0" class="klbl" style="font-size:17px">{</text>
+<rect x="678" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1052.0" class="klbl" style="font-size:17px">[</text>
+<rect x="752" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1052.0" class="klbl" style="font-size:17px">]</text>
+<rect x="826" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1052.0" class="klbl" style="font-size:17px">}</text>
+<rect x="900" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1052.0" class="klbl" style="font-size:17px">'</text>
+<rect x="40" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1116.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1116.0" class="klbl" style="font-size:13px">` +esp</text>
+<rect x="188" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="1116.0" class="klbl" style="font-size:13px">^ +esp</text>
+<rect x="262" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1116.0" class="klbl" style="font-size:17px">&lt;</text>
+<rect x="336" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1116.0" class="klbl" style="font-size:17px">&gt;</text>
+<rect x="410" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1116.0" class="klbl" style="font-size:17px">~</text>
+<rect x="604" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1116.0" class="klbl" style="font-size:17px">@</text>
+<rect x="678" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1116.0" class="klbl" style="font-size:17px">:</text>
+<rect x="752" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1116.0" class="klbl" style="font-size:17px">;</text>
+<rect x="826" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1116.0" class="klbl" style="font-size:17px">?</text>
+<rect x="900" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1116.0" class="klbl" style="font-size:17px">¿</text>
+<rect x="40" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="262" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="336" y="1146" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
+<text x="369.0" y="1180.0" class="kmo" style="font-size:17px">FN</text>
+<rect x="410" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="530" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="678" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="752" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="826" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="900" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
+<text x="40" y="1272" class="lname">3 · FN / MEDIA / SYS</text>
+<text x="40" y="1296" class="lnote">ambos pulgares</text>
+<rect x="40" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1358.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1358.0" class="klbl" style="font-size:17px">F1</text>
+<rect x="188" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="1358.0" class="klbl" style="font-size:17px">F2</text>
+<rect x="262" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1358.0" class="klbl" style="font-size:17px">F3</text>
+<rect x="336" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1358.0" class="klbl" style="font-size:17px">F4</text>
+<rect x="410" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1358.0" class="klbl" style="font-size:17px">F5</text>
+<rect x="530" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="1358.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1358.0" class="klbl" style="font-size:17px">F6</text>
+<rect x="678" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1358.0" class="klbl" style="font-size:17px">F7</text>
+<rect x="752" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1358.0" class="klbl" style="font-size:17px">F8</text>
+<rect x="826" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1358.0" class="klbl" style="font-size:17px">F9</text>
+<rect x="900" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1358.0" class="klbl" style="font-size:17px">F10</text>
+<rect x="40" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1422.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1422.0" class="klbl" style="font-size:17px">F11</text>
+<rect x="188" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="1422.0" class="klbl" style="font-size:17px">F12</text>
+<rect x="262" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1422.0" class="klbl" style="font-size:17px">º ª</text>
+<rect x="336" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1422.0" class="klbl" style="font-size:17px">€</text>
+<rect x="410" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1422.0" class="klbl" style="font-size:17px">¬</text>
+<rect x="530" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="1422.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1422.0" class="klbl" style="font-size:17px">Prev</text>
+<rect x="678" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1422.0" class="klbl" style="font-size:17px">Vol-</text>
+<rect x="752" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1422.0" class="klbl" style="font-size:17px">Vol+</text>
+<rect x="826" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1422.0" class="klbl" style="font-size:17px">Next</text>
+<rect x="900" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1422.0" class="klbl" style="font-size:17px">Mute</text>
+<rect x="40" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1486.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1486.0" class="klbl" style="font-size:17px">ç Ç</text>
+<rect x="188" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="221.0" y="1486.0" class="klbl" style="font-size:17px">¡ ¿</text>
+<rect x="262" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1486.0" class="klbl" style="font-size:17px">½</text>
+<rect x="336" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1486.0" class="klbl" style="font-size:17px">·</text>
+<rect x="410" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1486.0" class="klbl" style="font-size:17px">PrtSc</text>
+<rect x="604" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1486.0" class="klbl" style="font-size:17px">Play</text>
+<rect x="678" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1486.0" class="klbl" style="font-size:17px">Bri-</text>
+<rect x="752" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1486.0" class="klbl" style="font-size:17px">Bri+</text>
+<rect x="826" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1486.0" class="klbl" style="font-size:17px">NumLk</text>
+<rect x="900" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1486.0" class="klbl" style="font-size:17px">ScrLk</text>
+<rect x="40" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="73.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="114" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="147.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="262" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="295.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="336" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="369.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="410" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="443.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="530" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="563.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="604" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="637.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="678" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="711.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="752" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="785.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="826" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="859.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
+<rect x="900" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
+<text x="933.0" y="1550.0" class="klbl" style="font-size:17px">BOOT</text>
+<text x="40" y="1626" class="foot">MO(1)+MO(2) = capa 3 · ` y ^ son teclas muertas en «es»: pulsa espacio después</text>
+</svg>
