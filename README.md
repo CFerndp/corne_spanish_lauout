@@ -3,7 +3,9 @@
 Layout de 46 teclas para un **Pilot W-CORNE** (Vial), pensado para escribir castellano y
 programar con el sistema en **xkb `es`**.
 
-![Diagrama de las capas](docs/corne-es-layout.svg)
+![Diagrama de las capas](docs/corne-es-layout.png)
+
+*(el original vectorial, para imprimir, está en [`docs/corne-es-layout.svg`](docs/corne-es-layout.svg))*
 
 ## Cargarlo
 
@@ -12,6 +14,10 @@ programar con el sistema en **xkb `es`**.
 3. Los cambios se escriben en el teclado al instante; no hay que reflashear.
 
 Si algo no te convence, edítalo en Vial, guarda el `.vil` y lo reintegramos a `spec.py`.
+
+Si al cargar diera error de keycode, el sospechoso es el `Redo` de la capa NUM
+(`LCTL(LSFT(KC_Z))`, el único anidado de todo el fichero): se cambia por `LCTL(KC_Y)` y
+listo. El resto de keycodes son nombres VIA estándar.
 
 ## Cómo funciona
 
@@ -29,7 +35,7 @@ Dos apoyos del mapa `es` que vertebran la capa SYM:
 
 | Capa | Activación | Contenido |
 |---|---|---|
-| 0 · BASE | — | QWERTY, `Ñ`, `- _`, `, ;`, `. :`, `< >`, `´ ¨` |
+| 0 · BASE | — | QWERTY, `Ñ`, `- _`, `, ;`, `. :`, `´ ¨`, `Ctrl` interior derecho |
 | 1 · NUM/NAV | `MO(1)`, pulgar izquierdo | números, flechas en `HJKL`, `Home/PgDn/PgUp/End`, mods en la fila base, `Undo/Cut/Copy/Paste/Redo`, `AltGr` |
 | 2 · SYM | `MO(2)`, pulgar derecho | todos los símbolos de programación |
 | 3 · FN/MEDIA | ambos pulgares | F1–F12, multimedia, `º ª`, `€`, `¬`, `ç Ç`, `¡ ¿`, `½`, `·`, `« »` |

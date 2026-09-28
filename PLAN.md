@@ -65,7 +65,7 @@ Dos hallazgos que vertebran el diseño:
 | Fila superior de SYM = fila numérica con Shift (`! " # $ % & / ( ) =`) | mnemotecnia: misma posición que los números de la capa 1 |
 | `` ` `` y `^` como teclas muertas (sin macro) en v1 | ver §5 |
 | `AltGr` (`KC_RALT`) se mantiene en `[1][6]` de la capa 1 | es la vía de escape para cualquier símbolo `es` que no esté mapeado, y hace de Alt derecho en atajos |
-| Se **pierde `RCTRL`** en `[0][6]` (pasa a `< > \|`) | `Ctrl` sigue en el pulgar izquierdo; si lo usas a diario, dímelo y busco otro sitio para `< >` |
+| `RCTRL` se queda en `[0][6]` | es el único Ctrl de la mano derecha: sin él, `Ctrl`+dígito en la capa NUM cae en el mismo dedo. `< >` vive en SYM, que es suficiente |
 
 ## 4. Las capas
 
@@ -73,7 +73,7 @@ Ver el diagrama: [`docs/corne-es-layout.svg`](docs/corne-es-layout.svg)
 (regenerable con `python3 render_diagram.py`; la fuente de verdad es `spec.py`).
 
 - **Capa 0 · BASE** — QWERTY. `Ñ` en su sitio, `- _` en la posición de `/`, `, ;` y `. :`.
-  Propuesta nueva: la tecla interior derecha pasa de `RCTRL` a `< > |` (`KC_NONUS_BSLASH`).
+  La tecla interior derecha sigue siendo `RCTRL`; `< >` está en SYM.
 - **Capa 1 · NUM/NAV** (pulgar izq.) — números 1–0 arriba; flechas en `HJKL`;
   `Home/PgDn/PgUp/End` debajo; mods (`Super/Alt/Shift/Ctrl`) en la fila base izquierda para
   combinar con las flechas (selección por palabras, etc.); `Undo/Cut/Copy/Paste/Redo` en `ZXCVB`.

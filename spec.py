@@ -13,7 +13,7 @@ ___ = ("KC_TRNS", "▽")
 
 L0 = [
     [("KC_ESCAPE","Esc"), ("KC_Q","Q"), ("KC_W","W"), ("KC_E","E"), ("KC_R","R"), ("KC_T","T"),
-     ("KC_NONUS_BSLASH","< >"), ("KC_Y","Y"), ("KC_U","U"), ("KC_I","I"), ("KC_O","O"), ("KC_P","P")],
+     ("KC_RCTRL","Ctrl"), ("KC_Y","Y"), ("KC_U","U"), ("KC_I","I"), ("KC_O","O"), ("KC_P","P")],
     [("KC_CAPSLOCK","Compose"), ("KC_A","A"), ("KC_S","S"), ("KC_D","D"), ("KC_F","F"), ("KC_G","G"),
      ("KC_RSHIFT","Shift"), ("KC_H","H"), ("KC_J","J"), ("KC_K","K"), ("KC_L","L"), ("KC_SCOLON","Ñ")],
     [("KC_LSHIFT","Shift"), ("KC_Z","Z"), ("KC_X","X"), ("KC_C","C"), ("KC_V","V"), ("KC_B","B"),
