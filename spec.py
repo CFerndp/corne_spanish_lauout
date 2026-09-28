@@ -49,10 +49,10 @@ L3 = [  # FN / MEDIA / SYS -- ambos pulgares
      ___, ("KC_F6","F6"), ("KC_F7","F7"), ("KC_F8","F8"), ("KC_F9","F9"), ("KC_F10","F10")],
     [___, ("KC_F11","F11"), ("KC_F12","F12"), ("KC_GRAVE","º ª"), ("RALT(KC_E)","€"), ("RALT(KC_6)","¬"),
      ___, ("KC_MEDIA_PREV_TRACK","Prev"), ("KC_AUDIO_VOL_DOWN","Vol-"), ("KC_AUDIO_VOL_UP","Vol+"), ("KC_MEDIA_NEXT_TRACK","Next"), ("KC_AUDIO_MUTE","Mute")],
-    [___, ("KC_BSLASH","ç Ç"), ("KC_EQUAL","¡ ¿"), ("RALT(KC_5)","½"), ("LSFT(KC_3)","·"), ("KC_PSCREEN","PrtSc"),
-     HOLE, ("KC_MEDIA_PLAY_PAUSE","Play"), ("KC_BRIGHTNESS_DOWN","Bri-"), ("KC_BRIGHTNESS_UP","Bri+"), ("KC_NUMLOCK","NumLk"), ("KC_SCROLLLOCK","ScrLk")],
+    [___, ("KC_BSLASH","ç Ç"), ("KC_EQUAL","¡ ¿"), ("RALT(KC_5)","½"), ("LSFT(KC_3)","·"), ("RALT(KC_NONUS_BSLASH)","« »"),
+     HOLE, ("KC_MEDIA_PLAY_PAUSE","Play"), ("KC_PSCREEN","PrtSc"), ("KC_INSERT","Ins"), ("KC_NUMLOCK","NumLk"), ("KC_SCROLLLOCK","ScrLk")],
     [___, ___, HOLE, ___, ___, ___,
-     ___, ___, ___, ___, ___, ("QK_BOOT","BOOT")],
+     ___, ___, ___, ___, ___, ___],
 ]
 
 LAYERS = [
