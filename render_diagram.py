@@ -65,7 +65,9 @@ def main():
            '</style>',
            f'<text x="{MARGIN}" y="{MARGIN+24}" class="title">Corne · layout español para desarrollo</text>',
            f'<text x="{MARGIN}" y="{MARGIN+50}" class="sub">'
-           f'SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · las teclas con ? están sin confirmar</text>']
+           f'SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · teclas con ? = posición sin confirmar</text>',
+           f'<text x="{MARGIN}" y="{MARGIN+72}" class="sub">'
+           f'La fila de pulgares se dibuja alineada a la matriz, no a escala física</text>']
     y = MARGIN + 96
     for i, (name, note, grid) in enumerate(LAYERS):
         out += draw_layer(y, name, note, grid, mark_unconfirmed=(i == 0))
