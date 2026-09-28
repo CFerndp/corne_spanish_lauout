@@ -36,8 +36,8 @@ L1 = [  # NUM / NAV  -- pulgar izquierdo
 L2 = [  # SYM -- pulgar derecho
     [___, ("LSFT(KC_1)","!"), ("LSFT(KC_2)","\""), ("RALT(KC_3)","#"), ("LSFT(KC_4)","$"), ("LSFT(KC_5)","%"),
      ___, ("LSFT(KC_6)","&"), ("LSFT(KC_7)","/"), ("LSFT(KC_8)","("), ("LSFT(KC_9)",")"), ("LSFT(KC_0)","=")],
-    [___, ("RALT(KC_MINUS)","\\"), ("LSFT(KC_SLASH)","_"), ("KC_SLASH","-"), ("KC_RBRACKET","+"), ("LSFT(KC_RBRACKET)","*"),
-     ("RALT(KC_1)","|"), ("RALT(KC_7)","{"), ("RALT(KC_8)","["), ("RALT(KC_9)","]"), ("RALT(KC_0)","}"), ("KC_MINUS","'")],
+    [___, ("RALT(KC_GRAVE)","\\"), ("LSFT(KC_SLASH)","_"), ("KC_SLASH","-"), ("KC_RBRACKET","+"), ("LSFT(KC_RBRACKET)","*"),
+     ("RALT(KC_1)","|"), ("RALT(KC_QUOTE)","{"), ("RALT(KC_LBRACKET)","["), ("RALT(KC_RBRACKET)","]"), ("RALT(KC_BSLASH)","}"), ("KC_MINUS","'")],
     [___, ("KC_LBRACKET","` +esp"), ("LSFT(KC_LBRACKET)","^ +esp"), ("KC_NONUS_BSLASH","<"), ("LSFT(KC_NONUS_BSLASH)",">"), ("RALT(KC_4)","~"),
      HOLE, ("RALT(KC_2)","@"), ("LSFT(KC_DOT)",":"), ("LSFT(KC_COMMA)",";"), ("LSFT(KC_MINUS)","?"), ("LSFT(KC_EQUAL)","¿")],
     [___, ___, HOLE, ___, ("MO(3)","FN"), ___,

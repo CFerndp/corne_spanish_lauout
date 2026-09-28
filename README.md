@@ -26,10 +26,11 @@ mapa `es`. Por eso aquí no existen "teclas de símbolo": todo son combinaciones
 `LSFT(...)` y `RALT(...)` sobre teclas US. Cambiar el layout del sistema a otro que no sea
 `es` rompería todos los símbolos.
 
-Dos apoyos del mapa `es` que vertebran la capa SYM:
+Los corchetes salen por las rutas que vienen **serigrafiadas en un teclado español físico**
+(`AltGr` sobre las teclas `´`, `` ` ``, `+` y `ç`), no por `AltGr`+`7/8/9/0`: producen lo
+mismo en Linux, pero además funcionan en Windows y macOS. Ver la sección de portabilidad.
 
-- `RALT(7/8/9/0)` = `{ [ ] }` — los cuatro corchetes en la fila numérica, índice→meñique.
-- `RALT(4)` = `~` y **no es tecla muerta** en Linux. (`RALT(ñ)` sí lo es; no se usa.)
+`RALT(4)` = `~` y en Linux **no es tecla muerta**. (`RALT(ñ)` sí lo es; no se usa.)
 
 ## Las capas
 
@@ -76,6 +77,30 @@ python3 build_vil.py && python3 render_diagram.py
 vuelca. Comprueba con asserts que el volcado sin cambios reproduce el original byte a byte,
 que `uid`, combos, tap-dances y ajustes no se tocan y que ninguna tecla cae en una posición
 inexistente de la matriz.
+
+## ¿Me llevo la configuración a otro ordenador?
+
+**Sí.** El keymap se guarda en la memoria del propio teclado, no en el PC. Lo enchufas en
+otra máquina y las capas van contigo, sin instalar nada — Vial solo hace falta para
+*cambiar* el layout, no para usarlo.
+
+Lo que **no** viaja es el mapa de teclado del sistema operativo, y de eso depende todo:
+
+| Destino | Qué pasa |
+|---|---|
+| Otro Linux en `es` | idéntico, cero cambios |
+| Linux/Windows/macOS en **US** | se rompe todo lo que no sean letras: `ñ` sale `;`, los símbolos de SYM salen mal |
+| Windows o macOS en **español** | letras, `ñ`, acentos, números, capas y la mayoría de símbolos, bien |
+
+En ese tercer caso quedan tres detalles, todos de la capa 3 salvo el `~`:
+
+- `~` es tecla muerta en Windows: hay que pulsar espacio detrás (en Linux sale directo).
+- `½`, `¬` y `« »` son extras de xkb: no salen en Windows/macOS.
+- En macOS `AltGr` es `Option`, y algunos símbolos se colocan distinto.
+
+Los corchetes `{ [ ] }`, `| @ # \ €` y el resto de SYM sí funcionan en los tres sistemas,
+porque usan las rutas serigrafiadas en los teclados españoles físicos y no los atajos
+extra que añade xkb en Linux.
 
 ## Pendiente para la v2
 
