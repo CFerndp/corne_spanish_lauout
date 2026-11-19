@@ -5,7 +5,7 @@ programar con el sistema en **xkb `es`**.
 
 ![Diagrama de las capas](docs/corne-es-layout.png)
 
-*(el original vectorial, para imprimir, está en [`docs/corne-es-layout.svg`](docs/corne-es-layout.svg))*
+*(para imprimir: [`docs/corne-es-layout.pdf`](docs/corne-es-layout.pdf), tarjetas A4 recortables, una por capa, para pegar en la pared; vectorial: [`docs/corne-es-layout.svg`](docs/corne-es-layout.svg))*
 
 ## Cargarlo
 
@@ -47,8 +47,9 @@ Las capas 4–7 se quedan transparentes, libres para lo que quieras.
 
 `´` y `¨` están en la base, a la derecha del `Super` derecho: `´`+`a` → á, `¨`+`u` → ü.
 `Ñ` está en su sitio de siempre. `ç Ç`, `¡ ¿`, `º ª`, `€` y `« »` viven en la capa 3.
-Además, tu `Bloq. Mayús` es la tecla **Compose** del sistema (`compose:caps` en Hyprland),
-así que se ha dejado intacta.
+`Bloq. Mayús` (etiquetada `Caps`) se ha dejado intacta: en Omarchy, **Shift + Bloq. Mayús**
+es la tecla **Compose**, para símbolos que no están en el teclado (`Compose` `-` `>` → →,
+`Compose` `o` `c` → ©, `Compose` `-` `-` `-` → —).
 
 ### Dos teclas muertas
 
@@ -61,7 +62,7 @@ una macro de dos pulsaciones; queda para la siguiente iteración.
 ```
 spec.py              # LAS CAPAS. Fuente de verdad de todo lo demás
 build_vil.py         # spec.py + baseline → corne_es_dev.vil
-render_diagram.py    # spec.py → docs/corne-es-layout.svg
+render_diagram.py    # spec.py → docs/corne-es-layout.{svg,png,pdf}
 baseline/            # el .vil original, intacto
 corne_es_dev.vil     # el fichero que se carga en Vial
 PLAN.md              # el porqué de cada decisión, con la tabla xkb es verificada

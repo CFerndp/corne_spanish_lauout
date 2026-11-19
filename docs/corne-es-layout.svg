@@ -1,401 +1,690 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1006" height="1686" viewBox="0 0 1006 1686" font-family="DejaVu Sans, Inter, Helvetica, sans-serif">
-<rect width="1006" height="1686" fill="#faf9f6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000.8" height="3026" viewBox="0 0 1000.8 3026" font-family="DejaVu Sans, Inter, Helvetica, sans-serif">
+<rect width="1000.8" height="3026" fill="#faf9f6"/>
 <style>
-.title{font-size:30px;font-weight:700;fill:#1c1b19}
-.sub{font-size:15px;fill:#8a877e}
-.lname{font-size:20px;font-weight:700;fill:#b4532a}
+.title{font-size:28px;font-weight:700;fill:#1c1b19}
+.sub{font-size:14px;fill:#8a877e}
+.lname{font-size:19px;font-weight:700;fill:#b4532a}
 .lnote{font-size:13px;fill:#8a877e}
 .klbl{fill:#1c1b19;text-anchor:middle}
+.ktrns{fill:#c4c1b8;text-anchor:middle}
 .kmo{fill:#b4532a;font-weight:700;text-anchor:middle}
-.badge{font-size:12px;font-weight:700;fill:#a8791a;text-anchor:end}
-.foot{font-size:13px;fill:#8a877e}
+.kheld{fill:#faf9f6;font-weight:700;text-anchor:middle}
+.box{fill:#ffffff;stroke:#cfcdc6;stroke-width:1.2}
+.bh{font-size:15px;font-weight:700;fill:#1c1b19}
+.bt{font-size:13.5px;fill:#1c1b19}
+.cut{fill:none;stroke:#9a978e;stroke-width:1.2;stroke-dasharray:7 5}
+.scis{font-size:18px;fill:#9a978e}
+.ctitle{font-size:15px;font-weight:700;fill:#1c1b19}
 </style>
-<text x="40" y="64" class="title">Corne · layout español para desarrollo</text>
-<text x="40" y="90" class="sub">SO en xkb «es» · ▽ = transparente (cae a la capa inferior) · teclas con ? = posición sin confirmar</text>
-<text x="40" y="112" class="sub">La fila de pulgares se dibuja alineada a la matriz, no a escala física</text>
-<text x="40" y="162" class="lname">0 · BASE</text>
-<text x="40" y="186" class="lnote">QWERTY español (SO en layout 'es')</text>
-<rect x="40" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="248.0" class="klbl" style="font-size:17px">Esc</text>
-<rect x="114" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="248.0" class="klbl" style="font-size:17px">Q</text>
-<rect x="188" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="248.0" class="klbl" style="font-size:17px">W</text>
-<rect x="262" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="248.0" class="klbl" style="font-size:17px">E</text>
-<rect x="336" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="248.0" class="klbl" style="font-size:17px">R</text>
-<rect x="410" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="248.0" class="klbl" style="font-size:17px">T</text>
-<rect x="530" y="214" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="563.0" y="248.0" class="klbl" style="font-size:17px">Ctrl</text>
-<text x="589" y="229" class="badge">?</text>
-<rect x="604" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="248.0" class="klbl" style="font-size:17px">Y</text>
-<rect x="678" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="248.0" class="klbl" style="font-size:17px">U</text>
-<rect x="752" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="248.0" class="klbl" style="font-size:17px">I</text>
-<rect x="826" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="248.0" class="klbl" style="font-size:17px">O</text>
-<rect x="900" y="214" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="248.0" class="klbl" style="font-size:17px">P</text>
-<rect x="40" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="312.0" class="klbl" style="font-size:13px">Compose</text>
-<rect x="114" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="312.0" class="klbl" style="font-size:17px">A</text>
-<rect x="188" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="312.0" class="klbl" style="font-size:17px">S</text>
-<rect x="262" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="312.0" class="klbl" style="font-size:17px">D</text>
-<rect x="336" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="312.0" class="klbl" style="font-size:17px">F</text>
-<rect x="410" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="312.0" class="klbl" style="font-size:17px">G</text>
-<rect x="530" y="278" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="563.0" y="312.0" class="klbl" style="font-size:17px">Shift</text>
-<text x="589" y="293" class="badge">?</text>
-<rect x="604" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="312.0" class="klbl" style="font-size:17px">H</text>
-<rect x="678" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="312.0" class="klbl" style="font-size:17px">J</text>
-<rect x="752" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="312.0" class="klbl" style="font-size:17px">K</text>
-<rect x="826" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="312.0" class="klbl" style="font-size:17px">L</text>
-<rect x="900" y="278" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="312.0" class="klbl" style="font-size:17px">Ñ</text>
-<rect x="40" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="376.0" class="klbl" style="font-size:17px">Shift</text>
-<rect x="114" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="376.0" class="klbl" style="font-size:17px">Z</text>
-<rect x="188" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="376.0" class="klbl" style="font-size:17px">X</text>
-<rect x="262" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="376.0" class="klbl" style="font-size:17px">C</text>
-<rect x="336" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="376.0" class="klbl" style="font-size:17px">V</text>
-<rect x="410" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="376.0" class="klbl" style="font-size:17px">B</text>
-<rect x="604" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="376.0" class="klbl" style="font-size:17px">N</text>
-<rect x="678" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="376.0" class="klbl" style="font-size:17px">M</text>
-<rect x="752" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="376.0" class="klbl" style="font-size:17px">, ;</text>
-<rect x="826" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="376.0" class="klbl" style="font-size:17px">. :</text>
-<rect x="900" y="342" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="376.0" class="klbl" style="font-size:17px">- _</text>
-<rect x="40" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="73.0" y="440.0" class="klbl" style="font-size:17px">Alt</text>
-<text x="99" y="421" class="badge">?</text>
-<rect x="114" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="147.0" y="440.0" class="klbl" style="font-size:17px">Tab</text>
-<text x="173" y="421" class="badge">?</text>
-<rect x="262" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="440.0" class="klbl" style="font-size:17px">Ctrl</text>
-<rect x="336" y="406" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
-<text x="369.0" y="431.0" class="kmo" style="font-size:17px">NUM</text>
-<text x="369.0" y="446.0" class="kmo" style="font-size:17px">NAV</text>
-<rect x="410" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="440.0" class="klbl" style="font-size:17px">Enter</text>
-<rect x="530" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="440.0" class="klbl" style="font-size:17px">Space</text>
-<rect x="604" y="406" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
-<text x="637.0" y="440.0" class="kmo" style="font-size:17px">SYM</text>
-<rect x="678" y="406" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="440.0" class="klbl" style="font-size:17px">Super</text>
-<rect x="752" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="785.0" y="440.0" class="klbl" style="font-size:17px">Bksp</text>
-<text x="811" y="421" class="badge">?</text>
-<rect x="826" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="859.0" y="440.0" class="klbl" style="font-size:17px">´ ¨</text>
-<text x="885" y="421" class="badge">?</text>
-<rect x="900" y="406" width="66" height="56" rx="7" fill="#fdf6e3" stroke="#a8791a" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text x="933.0" y="440.0" class="klbl" style="font-size:17px">Supr</text>
-<text x="959" y="421" class="badge">?</text>
-<text x="40" y="532" class="lname">1 · NUM / NAV</text>
-<text x="40" y="556" class="lnote">pulgar izquierdo</text>
-<rect x="40" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="618.0" class="klbl" style="font-size:17px">Tab</text>
-<rect x="114" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="618.0" class="klbl" style="font-size:17px">1</text>
-<rect x="188" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="618.0" class="klbl" style="font-size:17px">2</text>
-<rect x="262" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="618.0" class="klbl" style="font-size:17px">3</text>
-<rect x="336" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="618.0" class="klbl" style="font-size:17px">4</text>
-<rect x="410" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="618.0" class="klbl" style="font-size:17px">5</text>
-<rect x="530" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="618.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="618.0" class="klbl" style="font-size:17px">6</text>
-<rect x="678" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="618.0" class="klbl" style="font-size:17px">7</text>
-<rect x="752" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="618.0" class="klbl" style="font-size:17px">8</text>
-<rect x="826" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="618.0" class="klbl" style="font-size:17px">9</text>
-<rect x="900" y="584" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="618.0" class="klbl" style="font-size:17px">0</text>
-<rect x="40" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="682.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="682.0" class="klbl" style="font-size:17px">Super</text>
-<rect x="188" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="682.0" class="klbl" style="font-size:17px">Alt</text>
-<rect x="262" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="682.0" class="klbl" style="font-size:17px">Shift</text>
-<rect x="336" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="682.0" class="klbl" style="font-size:17px">Ctrl</text>
-<rect x="410" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="682.0" class="klbl" style="font-size:17px">Tab</text>
-<rect x="530" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="682.0" class="klbl" style="font-size:17px">AltGr</text>
-<rect x="604" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="682.0" class="klbl" style="font-size:17px">←</text>
-<rect x="678" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="682.0" class="klbl" style="font-size:17px">↓</text>
-<rect x="752" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="682.0" class="klbl" style="font-size:17px">↑</text>
-<rect x="826" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="682.0" class="klbl" style="font-size:17px">→</text>
-<rect x="900" y="648" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="682.0" class="klbl" style="font-size:17px">Ins</text>
-<rect x="40" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="746.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="746.0" class="klbl" style="font-size:17px">Undo</text>
-<rect x="188" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="746.0" class="klbl" style="font-size:17px">Cut</text>
-<rect x="262" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="746.0" class="klbl" style="font-size:17px">Copy</text>
-<rect x="336" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="746.0" class="klbl" style="font-size:17px">Paste</text>
-<rect x="410" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="746.0" class="klbl" style="font-size:17px">Redo</text>
-<rect x="604" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="746.0" class="klbl" style="font-size:17px">Home</text>
-<rect x="678" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="746.0" class="klbl" style="font-size:17px">PgDn</text>
-<rect x="752" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="746.0" class="klbl" style="font-size:17px">PgUp</text>
-<rect x="826" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="746.0" class="klbl" style="font-size:17px">End</text>
-<rect x="900" y="712" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="746.0" class="klbl" style="font-size:17px">Menu</text>
-<rect x="40" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="262" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="336" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="410" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="530" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="776" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
-<text x="637.0" y="810.0" class="kmo" style="font-size:17px">FN</text>
-<rect x="678" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="752" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="826" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="900" y="776" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="810.0" class="klbl" style="font-size:17px">▽</text>
-<text x="40" y="902" class="lname">2 · SYM</text>
-<text x="40" y="926" class="lnote">pulgar derecho</text>
-<rect x="40" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="988.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="988.0" class="klbl" style="font-size:17px">!</text>
-<rect x="188" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="988.0" class="klbl" style="font-size:17px">&quot;</text>
-<rect x="262" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="988.0" class="klbl" style="font-size:17px">#</text>
-<rect x="336" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="988.0" class="klbl" style="font-size:17px">$</text>
-<rect x="410" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="988.0" class="klbl" style="font-size:17px">%</text>
-<rect x="530" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="988.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="988.0" class="klbl" style="font-size:17px">&amp;</text>
-<rect x="678" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="988.0" class="klbl" style="font-size:17px">/</text>
-<rect x="752" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="988.0" class="klbl" style="font-size:17px">(</text>
-<rect x="826" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="988.0" class="klbl" style="font-size:17px">)</text>
-<rect x="900" y="954" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="988.0" class="klbl" style="font-size:17px">=</text>
-<rect x="40" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1052.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1052.0" class="klbl" style="font-size:17px">\</text>
-<rect x="188" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="1052.0" class="klbl" style="font-size:17px">_</text>
-<rect x="262" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1052.0" class="klbl" style="font-size:17px">-</text>
-<rect x="336" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1052.0" class="klbl" style="font-size:17px">+</text>
-<rect x="410" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1052.0" class="klbl" style="font-size:17px">*</text>
-<rect x="530" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="1052.0" class="klbl" style="font-size:17px">|</text>
-<rect x="604" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1052.0" class="klbl" style="font-size:17px">{</text>
-<rect x="678" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1052.0" class="klbl" style="font-size:17px">[</text>
-<rect x="752" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1052.0" class="klbl" style="font-size:17px">]</text>
-<rect x="826" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1052.0" class="klbl" style="font-size:17px">}</text>
-<rect x="900" y="1018" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1052.0" class="klbl" style="font-size:17px">'</text>
-<rect x="40" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1116.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1116.0" class="klbl" style="font-size:13px">` +esp</text>
-<rect x="188" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="1116.0" class="klbl" style="font-size:13px">^ +esp</text>
-<rect x="262" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1116.0" class="klbl" style="font-size:17px">&lt;</text>
-<rect x="336" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1116.0" class="klbl" style="font-size:17px">&gt;</text>
-<rect x="410" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1116.0" class="klbl" style="font-size:17px">~</text>
-<rect x="604" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1116.0" class="klbl" style="font-size:17px">@</text>
-<rect x="678" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1116.0" class="klbl" style="font-size:17px">:</text>
-<rect x="752" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1116.0" class="klbl" style="font-size:17px">;</text>
-<rect x="826" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1116.0" class="klbl" style="font-size:17px">?</text>
-<rect x="900" y="1082" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1116.0" class="klbl" style="font-size:17px">¿</text>
-<rect x="40" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="262" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="336" y="1146" width="66" height="56" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/>
-<text x="369.0" y="1180.0" class="kmo" style="font-size:17px">FN</text>
-<rect x="410" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="530" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="678" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="752" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="826" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="900" y="1146" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1180.0" class="klbl" style="font-size:17px">▽</text>
-<text x="40" y="1272" class="lname">3 · FN / MEDIA / SYS</text>
-<text x="40" y="1296" class="lnote">ambos pulgares</text>
-<rect x="40" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1358.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1358.0" class="klbl" style="font-size:17px">F1</text>
-<rect x="188" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="1358.0" class="klbl" style="font-size:17px">F2</text>
-<rect x="262" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1358.0" class="klbl" style="font-size:17px">F3</text>
-<rect x="336" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1358.0" class="klbl" style="font-size:17px">F4</text>
-<rect x="410" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1358.0" class="klbl" style="font-size:17px">F5</text>
-<rect x="530" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="1358.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1358.0" class="klbl" style="font-size:17px">F6</text>
-<rect x="678" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1358.0" class="klbl" style="font-size:17px">F7</text>
-<rect x="752" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1358.0" class="klbl" style="font-size:17px">F8</text>
-<rect x="826" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1358.0" class="klbl" style="font-size:17px">F9</text>
-<rect x="900" y="1324" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1358.0" class="klbl" style="font-size:17px">F10</text>
-<rect x="40" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1422.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1422.0" class="klbl" style="font-size:17px">F11</text>
-<rect x="188" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="1422.0" class="klbl" style="font-size:17px">F12</text>
-<rect x="262" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1422.0" class="klbl" style="font-size:17px">º ª</text>
-<rect x="336" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1422.0" class="klbl" style="font-size:17px">€</text>
-<rect x="410" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1422.0" class="klbl" style="font-size:17px">¬</text>
-<rect x="530" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="1422.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1422.0" class="klbl" style="font-size:17px">Prev</text>
-<rect x="678" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1422.0" class="klbl" style="font-size:17px">Vol-</text>
-<rect x="752" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1422.0" class="klbl" style="font-size:17px">Vol+</text>
-<rect x="826" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1422.0" class="klbl" style="font-size:17px">Next</text>
-<rect x="900" y="1388" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1422.0" class="klbl" style="font-size:17px">Mute</text>
-<rect x="40" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1486.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1486.0" class="klbl" style="font-size:17px">ç Ç</text>
-<rect x="188" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="221.0" y="1486.0" class="klbl" style="font-size:17px">¡ ¿</text>
-<rect x="262" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1486.0" class="klbl" style="font-size:17px">½</text>
-<rect x="336" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1486.0" class="klbl" style="font-size:17px">·</text>
-<rect x="410" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1486.0" class="klbl" style="font-size:17px">« »</text>
-<rect x="604" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1486.0" class="klbl" style="font-size:17px">Play</text>
-<rect x="678" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1486.0" class="klbl" style="font-size:17px">PrtSc</text>
-<rect x="752" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1486.0" class="klbl" style="font-size:17px">Ins</text>
-<rect x="826" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1486.0" class="klbl" style="font-size:17px">NumLk</text>
-<rect x="900" y="1452" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1486.0" class="klbl" style="font-size:17px">ScrLk</text>
-<rect x="40" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="73.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="114" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="147.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="262" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="295.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="336" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="369.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="410" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="443.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="530" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="563.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="604" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="637.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="678" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="711.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="752" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="785.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="826" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="859.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<rect x="900" y="1516" width="66" height="56" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/>
-<text x="933.0" y="1550.0" class="klbl" style="font-size:17px">▽</text>
-<text x="40" y="1626" class="foot">MO(1)+MO(2) = capa 3 · ` y ^ son teclas muertas en «es»: pulsa espacio después</text>
+<text x="48.0" y="74" class="title">Corne · layout español para desarrollo</text>
+<text x="48.0" y="98" class="sub">Pilot W-CORNE, 46 teclas · SO en xkb «es»</text>
+<text x="48.0" y="118" class="sub">▽ = transparente (hace lo de la capa de debajo) · tecla oscura = la que mantienes para estar en esa capa · naranja = cambia de capa</text>
+<rect x="48.0" y="140" width="904.8" height="193" rx="10" class="box"/>
+<text x="66.0" y="166" class="bh">Cómo se usa</text>
+<text x="66.0" y="190" class="bt">NUM (pulgar izq.) = números, flechas y modificadores en la fila central.</text>
+<text x="66.0" y="211" class="bt">SYM (pulgar der.) = símbolos de programación.   NUM + SYM a la vez = FN (F1–F12, multimedia).</text>
+<text x="66.0" y="232" class="bt">` y ^ son teclas muertas en «es»: pulsa espacio después para que salgan solas.</text>
+<text x="66.0" y="253" class="bt">Entrar y salir del modo juego: mantén SYM y pulsa Esc (es un interruptor).</text>
+<text x="66.0" y="274" class="bt">Al desenchufar el teclado vuelve siempre al modo normal.</text>
+<text x="66.0" y="295" class="bt">Mano izquierda en el juego; la derecha es la normal, para el chat (SYM también funciona).</text>
+<text x="66.0" y="316" class="bt">G-FN (pulgar izq. interior) da 1–0 y F1–F5. FN (F6–F12, multimedia) no está en el modo juego.</text>
+<text x="48.0" y="383" class="lname">0 · BASE</text>
+<text x="48.0" y="403" class="lnote">Sin pulsar nada</text>
+<g transform="translate(77.0,468.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="473.0" class="klbl" style="font-size:16px">Esc</text>
+<g transform="translate(135.0,468.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="473.0" class="klbl" style="font-size:16px">Q</text>
+<g transform="translate(193.0,453.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="458.5" class="klbl" style="font-size:16px">W</text>
+<g transform="translate(251.0,446.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="451.0" class="klbl" style="font-size:16px">E</text>
+<g transform="translate(309.0,453.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="458.5" class="klbl" style="font-size:16px">R</text>
+<g transform="translate(367.0,459.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="464.3" class="klbl" style="font-size:16px">T</text>
+<g transform="translate(77.0,526.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="531.0" class="klbl" style="font-size:16px">Caps</text>
+<g transform="translate(135.0,526.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="531.0" class="klbl" style="font-size:16px">A</text>
+<g transform="translate(193.0,511.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="516.5" class="klbl" style="font-size:16px">S</text>
+<g transform="translate(251.0,504.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="509.0" class="klbl" style="font-size:16px">D</text>
+<g transform="translate(309.0,511.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="516.5" class="klbl" style="font-size:16px">F</text>
+<g transform="translate(367.0,517.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="522.3" class="klbl" style="font-size:16px">G</text>
+<g transform="translate(77.0,584.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="589.0" class="klbl" style="font-size:13px">Shift</text>
+<g transform="translate(135.0,584.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="589.0" class="klbl" style="font-size:16px">Z</text>
+<g transform="translate(193.0,569.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="574.5" class="klbl" style="font-size:16px">X</text>
+<g transform="translate(251.0,562.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="567.0" class="klbl" style="font-size:16px">C</text>
+<g transform="translate(309.0,569.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="574.5" class="klbl" style="font-size:16px">V</text>
+<g transform="translate(367.0,575.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="580.3" class="klbl" style="font-size:16px">B</text>
+<g transform="translate(425.0,488.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="493.9" class="klbl" style="font-size:16px">Alt</text>
+<g transform="translate(425.0,546.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="551.9" class="klbl" style="font-size:16px">Tab</text>
+<g transform="translate(279.4,635.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="640.1" class="klbl" style="font-size:16px">Ctrl</text>
+<g transform="translate(346.1,643.2) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="346.1" y="641.2" class="kmo" style="font-size:16px">NUM</text>
+<text x="346.1" y="655.2" class="kmo" style="font-size:16px">NAV</text>
+<g transform="translate(413.4,656.0) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="413.4" y="661.0" class="klbl" style="font-size:13px">Enter</text>
+<g transform="translate(633.8,459.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="464.3" class="klbl" style="font-size:16px">Y</text>
+<g transform="translate(691.8,453.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="458.5" class="klbl" style="font-size:16px">U</text>
+<g transform="translate(749.8,446.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="451.0" class="klbl" style="font-size:16px">I</text>
+<g transform="translate(807.8,453.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="458.5" class="klbl" style="font-size:16px">O</text>
+<g transform="translate(865.8,468.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="473.0" class="klbl" style="font-size:16px">P</text>
+<g transform="translate(633.8,517.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="522.3" class="klbl" style="font-size:16px">H</text>
+<g transform="translate(691.8,511.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="516.5" class="klbl" style="font-size:16px">J</text>
+<g transform="translate(749.8,504.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="509.0" class="klbl" style="font-size:16px">K</text>
+<g transform="translate(807.8,511.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="516.5" class="klbl" style="font-size:16px">L</text>
+<g transform="translate(865.8,526.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="531.0" class="klbl" style="font-size:16px">Ñ</text>
+<g transform="translate(633.8,575.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="580.3" class="klbl" style="font-size:16px">N</text>
+<g transform="translate(691.8,569.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="574.5" class="klbl" style="font-size:16px">M</text>
+<g transform="translate(749.8,562.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="567.0" class="klbl" style="font-size:16px">, ;</text>
+<g transform="translate(807.8,569.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="574.5" class="klbl" style="font-size:16px">. :</text>
+<g transform="translate(865.8,584.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="589.0" class="klbl" style="font-size:16px">- _</text>
+<g transform="translate(923.8,468.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="473.0" class="klbl" style="font-size:16px">Bksp</text>
+<g transform="translate(923.8,526.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="531.0" class="klbl" style="font-size:16px">´ ¨</text>
+<g transform="translate(923.8,584.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="589.0" class="klbl" style="font-size:16px">Supr</text>
+<g transform="translate(575.8,488.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="493.9" class="klbl" style="font-size:16px">Ctrl</text>
+<g transform="translate(575.8,546.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="551.9" class="klbl" style="font-size:13px">Shift</text>
+<g transform="translate(721.4,635.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="640.1" class="klbl" style="font-size:13px">Super</text>
+<g transform="translate(654.7,643.2) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="654.7" y="648.2" class="kmo" style="font-size:16px">SYM</text>
+<g transform="translate(587.4,656.0) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="661.0" class="klbl" style="font-size:13px">Space</text>
+<text x="48.0" y="762.1" class="lname">1 · NUM / NAV</text>
+<text x="48.0" y="782.1" class="lnote">Mantén NUM (pulgar izquierdo)</text>
+<g transform="translate(77.0,847.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="852.1" class="klbl" style="font-size:16px">Tab</text>
+<g transform="translate(135.0,847.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="852.1" class="klbl" style="font-size:16px">1</text>
+<g transform="translate(193.0,832.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="837.6" class="klbl" style="font-size:16px">2</text>
+<g transform="translate(251.0,825.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="830.1" class="klbl" style="font-size:16px">3</text>
+<g transform="translate(309.0,832.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="837.6" class="klbl" style="font-size:16px">4</text>
+<g transform="translate(367.0,838.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="843.4" class="klbl" style="font-size:16px">5</text>
+<g transform="translate(77.0,905.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="910.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,905.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="910.1" class="klbl" style="font-size:13px">Super</text>
+<g transform="translate(193.0,890.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="895.6" class="klbl" style="font-size:16px">Alt</text>
+<g transform="translate(251.0,883.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="888.1" class="klbl" style="font-size:13px">Shift</text>
+<g transform="translate(309.0,890.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="895.6" class="klbl" style="font-size:16px">Ctrl</text>
+<g transform="translate(367.0,896.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="901.4" class="klbl" style="font-size:16px">Tab</text>
+<g transform="translate(77.0,963.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="968.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,963.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="968.1" class="klbl" style="font-size:16px">Undo</text>
+<g transform="translate(193.0,948.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="953.6" class="klbl" style="font-size:16px">Cut</text>
+<g transform="translate(251.0,941.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="946.1" class="klbl" style="font-size:16px">Copy</text>
+<g transform="translate(309.0,948.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="953.6" class="klbl" style="font-size:13px">Paste</text>
+<g transform="translate(367.0,954.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="959.4" class="klbl" style="font-size:16px">Redo</text>
+<g transform="translate(425.0,868.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="873.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(425.0,926.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="931.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(279.4,1014.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="1019.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(346.1,1022.3) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="346.1" y="1027.3" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(413.4,1035.1) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="413.4" y="1040.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,838.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="843.4" class="klbl" style="font-size:16px">6</text>
+<g transform="translate(691.8,832.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="837.6" class="klbl" style="font-size:16px">7</text>
+<g transform="translate(749.8,825.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="830.1" class="klbl" style="font-size:16px">8</text>
+<g transform="translate(807.8,832.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="837.6" class="klbl" style="font-size:16px">9</text>
+<g transform="translate(865.8,847.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="852.1" class="klbl" style="font-size:16px">0</text>
+<g transform="translate(633.8,896.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="901.4" class="klbl" style="font-size:16px">←</text>
+<g transform="translate(691.8,890.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="895.6" class="klbl" style="font-size:16px">↓</text>
+<g transform="translate(749.8,883.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="888.1" class="klbl" style="font-size:16px">↑</text>
+<g transform="translate(807.8,890.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="895.6" class="klbl" style="font-size:16px">→</text>
+<g transform="translate(865.8,905.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="910.1" class="klbl" style="font-size:16px">Ins</text>
+<g transform="translate(633.8,954.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="959.4" class="klbl" style="font-size:16px">Home</text>
+<g transform="translate(691.8,948.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="953.6" class="klbl" style="font-size:16px">PgDn</text>
+<g transform="translate(749.8,941.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="946.1" class="klbl" style="font-size:16px">PgUp</text>
+<g transform="translate(807.8,948.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="953.6" class="klbl" style="font-size:16px">End</text>
+<g transform="translate(865.8,963.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="968.1" class="klbl" style="font-size:16px">Menu</text>
+<g transform="translate(923.8,847.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="852.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,905.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="910.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,963.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="968.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,868.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="873.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,926.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="931.0" class="klbl" style="font-size:13px">AltGr</text>
+<g transform="translate(721.4,1014.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="1019.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(654.7,1022.3) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="654.7" y="1027.3" class="kmo" style="font-size:16px">FN</text>
+<g transform="translate(587.4,1035.1) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="1040.1" class="ktrns" style="font-size:16px">▽</text>
+<text x="48.0" y="1141.2" class="lname">2 · SYM</text>
+<text x="48.0" y="1161.2" class="lnote">Mantén SYM (pulgar derecho)</text>
+<g transform="translate(77.0,1226.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="77.0" y="1231.2" class="kmo" style="font-size:16px">Game</text>
+<g transform="translate(135.0,1226.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1231.2" class="klbl" style="font-size:16px">!</text>
+<g transform="translate(193.0,1211.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1216.7" class="klbl" style="font-size:16px">&quot;</text>
+<g transform="translate(251.0,1204.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1209.2" class="klbl" style="font-size:16px">#</text>
+<g transform="translate(309.0,1211.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1216.7" class="klbl" style="font-size:16px">$</text>
+<g transform="translate(367.0,1217.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1222.5" class="klbl" style="font-size:16px">%</text>
+<g transform="translate(77.0,1284.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1289.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,1284.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1289.2" class="klbl" style="font-size:16px">\</text>
+<g transform="translate(193.0,1269.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1274.7" class="klbl" style="font-size:16px">_</text>
+<g transform="translate(251.0,1262.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1267.2" class="klbl" style="font-size:16px">-</text>
+<g transform="translate(309.0,1269.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1274.7" class="klbl" style="font-size:16px">+</text>
+<g transform="translate(367.0,1275.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1280.5" class="klbl" style="font-size:16px">*</text>
+<g transform="translate(77.0,1342.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1347.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,1342.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1347.2" class="klbl" style="font-size:13px">` +esp</text>
+<g transform="translate(193.0,1327.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1332.7" class="klbl" style="font-size:13px">^ +esp</text>
+<g transform="translate(251.0,1320.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1325.2" class="klbl" style="font-size:16px">&lt;</text>
+<g transform="translate(309.0,1327.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1332.7" class="klbl" style="font-size:16px">&gt;</text>
+<g transform="translate(367.0,1333.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1338.5" class="klbl" style="font-size:16px">~</text>
+<g transform="translate(425.0,1247.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="1252.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(425.0,1305.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="1310.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(279.4,1393.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="1398.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(346.1,1401.4) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="346.1" y="1406.4" class="kmo" style="font-size:16px">FN</text>
+<g transform="translate(413.4,1414.2) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="413.4" y="1419.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,1217.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1222.5" class="klbl" style="font-size:16px">&amp;</text>
+<g transform="translate(691.8,1211.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1216.7" class="klbl" style="font-size:16px">/</text>
+<g transform="translate(749.8,1204.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1209.2" class="klbl" style="font-size:16px">(</text>
+<g transform="translate(807.8,1211.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1216.7" class="klbl" style="font-size:16px">)</text>
+<g transform="translate(865.8,1226.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1231.2" class="klbl" style="font-size:16px">=</text>
+<g transform="translate(633.8,1275.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1280.5" class="klbl" style="font-size:16px">{</text>
+<g transform="translate(691.8,1269.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1274.7" class="klbl" style="font-size:16px">[</text>
+<g transform="translate(749.8,1262.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1267.2" class="klbl" style="font-size:16px">]</text>
+<g transform="translate(807.8,1269.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1274.7" class="klbl" style="font-size:16px">}</text>
+<g transform="translate(865.8,1284.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1289.2" class="klbl" style="font-size:16px">'</text>
+<g transform="translate(633.8,1333.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1338.5" class="klbl" style="font-size:16px">@</text>
+<g transform="translate(691.8,1327.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1332.7" class="klbl" style="font-size:16px">:</text>
+<g transform="translate(749.8,1320.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1325.2" class="klbl" style="font-size:16px">;</text>
+<g transform="translate(807.8,1327.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1332.7" class="klbl" style="font-size:16px">?</text>
+<g transform="translate(865.8,1342.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1347.2" class="klbl" style="font-size:16px">¿</text>
+<g transform="translate(923.8,1226.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1231.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,1284.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1289.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,1342.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1347.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,1247.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="1252.1" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,1305.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="1310.1" class="klbl" style="font-size:16px">|</text>
+<g transform="translate(721.4,1393.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="1398.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(654.7,1401.4) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="654.7" y="1406.4" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(587.4,1414.2) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="1419.2" class="ktrns" style="font-size:16px">▽</text>
+<text x="48.0" y="1520.3000000000002" class="lname">3 · FN / MEDIA / SYS</text>
+<text x="48.0" y="1540.3000000000002" class="lnote">Mantén NUM + SYM a la vez</text>
+<g transform="translate(77.0,1605.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1610.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,1605.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1610.3" class="klbl" style="font-size:16px">F1</text>
+<g transform="translate(193.0,1590.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1595.8" class="klbl" style="font-size:16px">F2</text>
+<g transform="translate(251.0,1583.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1588.3" class="klbl" style="font-size:16px">F3</text>
+<g transform="translate(309.0,1590.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1595.8" class="klbl" style="font-size:16px">F4</text>
+<g transform="translate(367.0,1596.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1601.6" class="klbl" style="font-size:16px">F5</text>
+<g transform="translate(77.0,1663.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1668.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,1663.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1668.3" class="klbl" style="font-size:16px">F11</text>
+<g transform="translate(193.0,1648.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1653.8" class="klbl" style="font-size:16px">F12</text>
+<g transform="translate(251.0,1641.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1646.3" class="klbl" style="font-size:16px">º ª</text>
+<g transform="translate(309.0,1648.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1653.8" class="klbl" style="font-size:16px">€</text>
+<g transform="translate(367.0,1654.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1659.6" class="klbl" style="font-size:16px">¬</text>
+<g transform="translate(77.0,1721.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1726.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,1721.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1726.3" class="klbl" style="font-size:16px">ç Ç</text>
+<g transform="translate(193.0,1706.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1711.8" class="klbl" style="font-size:16px">¡ ¿</text>
+<g transform="translate(251.0,1699.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1704.3" class="klbl" style="font-size:16px">½</text>
+<g transform="translate(309.0,1706.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1711.8" class="klbl" style="font-size:16px">·</text>
+<g transform="translate(367.0,1712.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1717.6" class="klbl" style="font-size:16px">« »</text>
+<g transform="translate(425.0,1626.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="1631.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(425.0,1684.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="1689.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(279.4,1772.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="1777.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(346.1,1780.5) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="346.1" y="1785.5" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(413.4,1793.3) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="413.4" y="1798.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,1596.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1601.6" class="klbl" style="font-size:16px">F6</text>
+<g transform="translate(691.8,1590.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1595.8" class="klbl" style="font-size:16px">F7</text>
+<g transform="translate(749.8,1583.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1588.3" class="klbl" style="font-size:16px">F8</text>
+<g transform="translate(807.8,1590.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1595.8" class="klbl" style="font-size:16px">F9</text>
+<g transform="translate(865.8,1605.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1610.3" class="klbl" style="font-size:16px">F10</text>
+<g transform="translate(633.8,1654.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1659.6" class="klbl" style="font-size:16px">Prev</text>
+<g transform="translate(691.8,1648.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1653.8" class="klbl" style="font-size:16px">Vol-</text>
+<g transform="translate(749.8,1641.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1646.3" class="klbl" style="font-size:16px">Vol+</text>
+<g transform="translate(807.8,1648.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1653.8" class="klbl" style="font-size:16px">Next</text>
+<g transform="translate(865.8,1663.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1668.3" class="klbl" style="font-size:16px">Mute</text>
+<g transform="translate(633.8,1712.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1717.6" class="klbl" style="font-size:16px">Play</text>
+<g transform="translate(691.8,1706.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1711.8" class="klbl" style="font-size:13px">PrtSc</text>
+<g transform="translate(749.8,1699.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1704.3" class="klbl" style="font-size:16px">Ins</text>
+<g transform="translate(807.8,1706.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1711.8" class="klbl" style="font-size:13px">NumLk</text>
+<g transform="translate(865.8,1721.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1726.3" class="klbl" style="font-size:13px">ScrLk</text>
+<g transform="translate(923.8,1605.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1610.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,1663.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1668.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,1721.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1726.3" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,1626.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="1631.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,1684.2) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="1689.2" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(721.4,1772.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="1777.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(654.7,1780.5) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="654.7" y="1785.5" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(587.4,1793.3) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="1798.3" class="ktrns" style="font-size:16px">▽</text>
+<text x="48.0" y="1899.4" class="lname">4 · GAME</text>
+<text x="48.0" y="1919.4" class="lnote">SYM + Esc para entrar · SYM + Esc otra vez para salir</text>
+<g transform="translate(77.0,1984.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="1989.4" class="klbl" style="font-size:16px">Esc</text>
+<g transform="translate(135.0,1984.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="1989.4" class="klbl" style="font-size:16px">Q</text>
+<g transform="translate(193.0,1969.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="1974.9" class="klbl" style="font-size:16px">W</text>
+<g transform="translate(251.0,1962.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="1967.4" class="klbl" style="font-size:16px">E</text>
+<g transform="translate(309.0,1969.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="1974.9" class="klbl" style="font-size:16px">R</text>
+<g transform="translate(367.0,1975.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="1980.7" class="klbl" style="font-size:16px">T</text>
+<g transform="translate(77.0,2042.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2047.4" class="klbl" style="font-size:13px">Shift</text>
+<g transform="translate(135.0,2042.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2047.4" class="klbl" style="font-size:16px">A</text>
+<g transform="translate(193.0,2027.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2032.9" class="klbl" style="font-size:16px">S</text>
+<g transform="translate(251.0,2020.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2025.4" class="klbl" style="font-size:16px">D</text>
+<g transform="translate(309.0,2027.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2032.9" class="klbl" style="font-size:16px">F</text>
+<g transform="translate(367.0,2033.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2038.7" class="klbl" style="font-size:16px">G</text>
+<g transform="translate(77.0,2100.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2105.4" class="klbl" style="font-size:16px">Alt</text>
+<g transform="translate(135.0,2100.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2105.4" class="klbl" style="font-size:16px">Z</text>
+<g transform="translate(193.0,2085.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2090.9" class="klbl" style="font-size:16px">X</text>
+<g transform="translate(251.0,2078.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2083.4" class="klbl" style="font-size:16px">C</text>
+<g transform="translate(309.0,2085.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2090.9" class="klbl" style="font-size:16px">V</text>
+<g transform="translate(367.0,2091.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2096.7" class="klbl" style="font-size:16px">B</text>
+<g transform="translate(425.0,2005.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2010.3" class="klbl" style="font-size:16px">Tab</text>
+<g transform="translate(425.0,2063.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2068.3" class="klbl" style="font-size:13px">Enter</text>
+<g transform="translate(279.4,2151.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="2156.5" class="klbl" style="font-size:16px">Ctrl</text>
+<g transform="translate(346.1,2159.6) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="346.1" y="2164.6" class="klbl" style="font-size:13px">Space</text>
+<g transform="translate(413.4,2172.4) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="413.4" y="2177.4" class="kmo" style="font-size:16px">G-FN</text>
+<g transform="translate(633.8,1975.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="1980.7" class="klbl" style="font-size:16px">Y</text>
+<g transform="translate(691.8,1969.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="1974.9" class="klbl" style="font-size:16px">U</text>
+<g transform="translate(749.8,1962.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="1967.4" class="klbl" style="font-size:16px">I</text>
+<g transform="translate(807.8,1969.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="1974.9" class="klbl" style="font-size:16px">O</text>
+<g transform="translate(865.8,1984.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="1989.4" class="klbl" style="font-size:16px">P</text>
+<g transform="translate(633.8,2033.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2038.7" class="klbl" style="font-size:16px">H</text>
+<g transform="translate(691.8,2027.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2032.9" class="klbl" style="font-size:16px">J</text>
+<g transform="translate(749.8,2020.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2025.4" class="klbl" style="font-size:16px">K</text>
+<g transform="translate(807.8,2027.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2032.9" class="klbl" style="font-size:16px">L</text>
+<g transform="translate(865.8,2042.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2047.4" class="klbl" style="font-size:16px">Ñ</text>
+<g transform="translate(633.8,2091.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2096.7" class="klbl" style="font-size:16px">N</text>
+<g transform="translate(691.8,2085.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2090.9" class="klbl" style="font-size:16px">M</text>
+<g transform="translate(749.8,2078.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2083.4" class="klbl" style="font-size:16px">, ;</text>
+<g transform="translate(807.8,2085.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2090.9" class="klbl" style="font-size:16px">. :</text>
+<g transform="translate(865.8,2100.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2105.4" class="klbl" style="font-size:16px">- _</text>
+<g transform="translate(923.8,1984.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="1989.4" class="klbl" style="font-size:16px">Bksp</text>
+<g transform="translate(923.8,2042.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2047.4" class="klbl" style="font-size:16px">´ ¨</text>
+<g transform="translate(923.8,2100.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2105.4" class="klbl" style="font-size:16px">Supr</text>
+<g transform="translate(575.8,2005.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2010.3" class="klbl" style="font-size:16px">Ctrl</text>
+<g transform="translate(575.8,2063.3) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2068.3" class="klbl" style="font-size:13px">Shift</text>
+<g transform="translate(721.4,2151.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="2156.5" class="klbl" style="font-size:13px">Super</text>
+<g transform="translate(654.7,2159.6) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="654.7" y="2164.6" class="kmo" style="font-size:16px">SYM</text>
+<g transform="translate(587.4,2172.4) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="2177.4" class="klbl" style="font-size:13px">Space</text>
+<text x="48.0" y="2278.5" class="lname">5 · GAME-FN</text>
+<text x="48.0" y="2298.5" class="lnote">Dentro de GAME: mantén G-FN (pulgar izquierdo, el de dentro)</text>
+<g transform="translate(77.0,2363.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2368.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,2363.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2368.5" class="klbl" style="font-size:16px">1</text>
+<g transform="translate(193.0,2349.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2354.0" class="klbl" style="font-size:16px">2</text>
+<g transform="translate(251.0,2341.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2346.5" class="klbl" style="font-size:16px">3</text>
+<g transform="translate(309.0,2349.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2354.0" class="klbl" style="font-size:16px">4</text>
+<g transform="translate(367.0,2354.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2359.8" class="klbl" style="font-size:16px">5</text>
+<g transform="translate(77.0,2421.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2426.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,2421.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2426.5" class="klbl" style="font-size:16px">F1</text>
+<g transform="translate(193.0,2407.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2412.0" class="klbl" style="font-size:16px">F2</text>
+<g transform="translate(251.0,2399.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2404.5" class="klbl" style="font-size:16px">F3</text>
+<g transform="translate(309.0,2407.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2412.0" class="klbl" style="font-size:16px">F4</text>
+<g transform="translate(367.0,2412.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2417.8" class="klbl" style="font-size:16px">F5</text>
+<g transform="translate(77.0,2479.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2484.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,2479.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2484.5" class="klbl" style="font-size:16px">6</text>
+<g transform="translate(193.0,2465.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2470.0" class="klbl" style="font-size:16px">7</text>
+<g transform="translate(251.0,2457.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2462.5" class="klbl" style="font-size:16px">8</text>
+<g transform="translate(309.0,2465.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2470.0" class="klbl" style="font-size:16px">9</text>
+<g transform="translate(367.0,2470.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2475.8" class="klbl" style="font-size:16px">0</text>
+<g transform="translate(425.0,2384.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2389.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(425.0,2442.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2447.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(279.4,2530.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="2535.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(346.1,2538.7) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="346.1" y="2543.7" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(413.4,2551.5) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="413.4" y="2556.5" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(633.8,2354.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2359.8" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(691.8,2349.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2354.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(749.8,2341.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2346.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(807.8,2349.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2354.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(865.8,2363.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2368.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,2412.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2417.8" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(691.8,2407.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2412.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(749.8,2399.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2404.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(807.8,2407.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2412.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(865.8,2421.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2426.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,2470.8) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2475.8" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(691.8,2465.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2470.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(749.8,2457.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2462.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(807.8,2465.0) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2470.0" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(865.8,2479.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2484.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,2363.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2368.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,2421.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2426.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,2479.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2484.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,2384.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2389.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,2442.4) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2447.4" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(721.4,2530.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="2535.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(654.7,2538.7) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="654.7" y="2543.7" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(587.4,2551.5) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="2556.5" class="ktrns" style="font-size:16px">▽</text>
+<text x="48.0" y="2657.6" class="lname">6 · SYM (en GAME)</text>
+<text x="48.0" y="2677.6" class="lnote">Dentro de GAME: mantén SYM (pulgar derecho)</text>
+<g transform="translate(77.0,2742.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#fdf0e8" stroke="#b4532a" stroke-width="1.4"/></g>
+<text x="77.0" y="2747.6" class="kmo" style="font-size:16px">Game</text>
+<g transform="translate(135.0,2742.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2747.6" class="klbl" style="font-size:16px">!</text>
+<g transform="translate(193.0,2728.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2733.1" class="klbl" style="font-size:16px">&quot;</text>
+<g transform="translate(251.0,2720.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2725.6" class="klbl" style="font-size:16px">#</text>
+<g transform="translate(309.0,2728.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2733.1" class="klbl" style="font-size:16px">$</text>
+<g transform="translate(367.0,2733.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2738.9" class="klbl" style="font-size:16px">%</text>
+<g transform="translate(77.0,2800.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2805.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,2800.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2805.6" class="klbl" style="font-size:16px">\</text>
+<g transform="translate(193.0,2786.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2791.1" class="klbl" style="font-size:16px">_</text>
+<g transform="translate(251.0,2778.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2783.6" class="klbl" style="font-size:16px">-</text>
+<g transform="translate(309.0,2786.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2791.1" class="klbl" style="font-size:16px">+</text>
+<g transform="translate(367.0,2791.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2796.9" class="klbl" style="font-size:16px">*</text>
+<g transform="translate(77.0,2858.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="77.0" y="2863.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(135.0,2858.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="135.0" y="2863.6" class="klbl" style="font-size:13px">` +esp</text>
+<g transform="translate(193.0,2844.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="193.0" y="2849.1" class="klbl" style="font-size:13px">^ +esp</text>
+<g transform="translate(251.0,2836.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="251.0" y="2841.6" class="klbl" style="font-size:16px">&lt;</text>
+<g transform="translate(309.0,2844.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="309.0" y="2849.1" class="klbl" style="font-size:16px">&gt;</text>
+<g transform="translate(367.0,2849.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="367.0" y="2854.9" class="klbl" style="font-size:16px">~</text>
+<g transform="translate(425.0,2763.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2768.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(425.0,2821.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="425.0" y="2826.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(279.4,2909.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="279.4" y="2914.7" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(346.1,2917.8) rotate(15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="346.1" y="2922.8" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(413.4,2930.6) rotate(30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="413.4" y="2935.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(633.8,2733.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2738.9" class="klbl" style="font-size:16px">&amp;</text>
+<g transform="translate(691.8,2728.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2733.1" class="klbl" style="font-size:16px">/</text>
+<g transform="translate(749.8,2720.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2725.6" class="klbl" style="font-size:16px">(</text>
+<g transform="translate(807.8,2728.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2733.1" class="klbl" style="font-size:16px">)</text>
+<g transform="translate(865.8,2742.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2747.6" class="klbl" style="font-size:16px">=</text>
+<g transform="translate(633.8,2791.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2796.9" class="klbl" style="font-size:16px">{</text>
+<g transform="translate(691.8,2786.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2791.1" class="klbl" style="font-size:16px">[</text>
+<g transform="translate(749.8,2778.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2783.6" class="klbl" style="font-size:16px">]</text>
+<g transform="translate(807.8,2786.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2791.1" class="klbl" style="font-size:16px">}</text>
+<g transform="translate(865.8,2800.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2805.6" class="klbl" style="font-size:16px">'</text>
+<g transform="translate(633.8,2849.9) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="633.8" y="2854.9" class="klbl" style="font-size:16px">@</text>
+<g transform="translate(691.8,2844.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="691.8" y="2849.1" class="klbl" style="font-size:16px">:</text>
+<g transform="translate(749.8,2836.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="749.8" y="2841.6" class="klbl" style="font-size:16px">;</text>
+<g transform="translate(807.8,2844.1) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="807.8" y="2849.1" class="klbl" style="font-size:16px">?</text>
+<g transform="translate(865.8,2858.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="865.8" y="2863.6" class="klbl" style="font-size:16px">¿</text>
+<g transform="translate(923.8,2742.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2747.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,2800.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2805.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(923.8,2858.6) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="923.8" y="2863.6" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,2763.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2768.5" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(575.8,2821.5) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="575.8" y="2826.5" class="klbl" style="font-size:16px">|</text>
+<g transform="translate(721.4,2909.7) rotate(0)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="721.4" y="2914.7" class="ktrns" style="font-size:16px">▽</text>
+<g transform="translate(654.7,2917.8) rotate(-15)"><rect x="-26.0" y="-26.0" width="52" height="52.0" rx="7" fill="#3a3833" stroke="#3a3833" stroke-width="1.4"/></g>
+<text x="654.7" y="2922.8" class="kheld" style="font-size:11px">mantener</text>
+<g transform="translate(587.4,2930.6) rotate(-30)"><rect x="-26.0" y="-33.2" width="52" height="66.5" rx="7" fill="#ffffff" stroke="#cfcdc6" stroke-width="1.4"/></g>
+<text x="587.4" y="2935.6" class="ktrns" style="font-size:16px">▽</text>
 </svg>

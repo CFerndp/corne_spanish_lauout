@@ -10,7 +10,7 @@ Estado: **pendiente de validación**. Nada se ha escrito todavía sobre un `.vil
 | Firmware | Vial, protocolo 6 / VIA 9, 8 capas, 32 tap-dance, 32 combos | `spanish_layout.vil` |
 | Matriz en el `.vil` | 4 filas × 12 columnas; sin tecla en `[2][6]` y `[3][2]` (46 teclas) | parseo del JSON |
 | Layout del SO | **`es`** (Hyprland `kb_layout = es`, `localectl` → X11 Layout `es`) | `~/.config/hypr/input.conf` |
-| Compose | `kb_options = compose:caps` → **Bloq. Mayús es la tecla Compose** | mismo fichero |
+| Compose | Omarchy por defecto, `kb_options = omarchy:shift_caps_compose` → **Bloq. Mayús es Bloq. Mayús; Shift + Bloq. Mayús es Compose** (antes era `compose:caps`; revisado el 2026-11-19 con `hyprctl getoption input:kb_options`) | `~/.local/share/omarchy/default/hypr/input.lua` |
 
 Consecuencia clave: el firmware envía *posiciones físicas tipo US* y el SO las traduce con
 `es`. Por eso todos los símbolos se generan con combinaciones `LSFT(...)` / `RALT(...)`
@@ -59,7 +59,7 @@ Dos hallazgos que vertebran el diseño:
 | Mantener `MO(1)` y `MO(2)` donde están | son los pulgares actuales; no se toca la memoria muscular |
 | `MO(1)` = **NUM/NAV** (como hoy), `MO(2)` = **SYM** | la capa 1 actual ya es números + flechas |
 | `MO(1)`+`MO(2)` = **capa 3** (FN/media/sistema) | `MO(3)` colocado en la posición del otro pulgar dentro de cada capa |
-| Mantener `Bloq. Mayús` en `[1][0]` | es la tecla **Compose** del sistema; sustituirla rompería acentos y símbolos raros |
+| Mantener `Bloq. Mayús` en `[1][0]` | es Bloq. Mayús y, con Shift, la tecla **Compose** del sistema; sustituirla quitaría el acceso a símbolos raros (— → © °) |
 | Mantener `´ ¨` (`KC_QUOTE`) en la base | es *la* tecla del español: á é í ó ú ü. El `'` va a SYM |
 | **Sin home-row mods** en v1 | 46 teclas con Shift/Ctrl dedicados; los HRM cuestan semanas de reentreno y fallan al teclear rápido. Queda anotado como posible v2 |
 | Fila superior de SYM = fila numérica con Shift (`! " # $ % & / ( ) =`) | mnemotecnia: misma posición que los números de la capa 1 |
@@ -104,6 +104,12 @@ matriz, no a la forma real del cluster. La manera limpia de resolverlo es una de
 2. **Una foto del teclado**: resuelve de un golpe si son 42 o 46 teclas y cómo es el cluster.
 
 **Pregunta:** ¿puedes pasarme el resultado del matrix tester para esas 7, o una foto?
+
+**Resuelto (2026-11-19, pestaña Keymap de Vial):** son 46 teclas. Las dos mitades tienen
+una columna interior de 2 teclas: a la izquierda, junto a T/G, `[3][0]` (arriba) y `[3][1]`
+(abajo); a la derecha, junto a Y/H, `[0][6]` y `[1][6]`. La columna exterior derecha (meñique)
+es `[3][9]` (fila de arriba), `[3][10]` (fila del medio) y `[3][11]` (fila de abajo).
+Pulgares: 3 por lado, `[3][3..5]` y `[3][6..8]`.
 
 ### (b) Teclas muertas `` ` `` y `^`
 

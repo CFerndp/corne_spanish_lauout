@@ -67,7 +67,7 @@ def main():
         json.dump(new, f)
 
     print(f"escrito {OUT}")
-    print(f"capas modificadas: {len(LAYERS)} de 8 (5-8 se quedan transparentes)")
+    print(f"capas modificadas: {len(LAYERS)} de 8 (el resto se quedan transparentes)")
     if novel:
         print("\nkeycodes que no estaban en el original (revisar en Vial que se "
               "muestren bien al cargar):")

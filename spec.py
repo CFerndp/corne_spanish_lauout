@@ -14,7 +14,7 @@ ___ = ("KC_TRNS", "▽")
 L0 = [
     [("KC_ESCAPE","Esc"), ("KC_Q","Q"), ("KC_W","W"), ("KC_E","E"), ("KC_R","R"), ("KC_T","T"),
      ("KC_RCTRL","Ctrl"), ("KC_Y","Y"), ("KC_U","U"), ("KC_I","I"), ("KC_O","O"), ("KC_P","P")],
-    [("KC_CAPSLOCK","Compose"), ("KC_A","A"), ("KC_S","S"), ("KC_D","D"), ("KC_F","F"), ("KC_G","G"),
+    [("KC_CAPSLOCK","Caps"), ("KC_A","A"), ("KC_S","S"), ("KC_D","D"), ("KC_F","F"), ("KC_G","G"),
      ("KC_RSHIFT","Shift"), ("KC_H","H"), ("KC_J","J"), ("KC_K","K"), ("KC_L","L"), ("KC_SCOLON","Ñ")],
     [("KC_LSHIFT","Shift"), ("KC_Z","Z"), ("KC_X","X"), ("KC_C","C"), ("KC_V","V"), ("KC_B","B"),
      HOLE, ("KC_N","N"), ("KC_M","M"), ("KC_COMMA",", ;"), ("KC_DOT",". :"), ("KC_SLASH","- _")],
@@ -34,7 +34,7 @@ L1 = [  # NUM / NAV  -- pulgar izquierdo
 ]
 
 L2 = [  # SYM -- pulgar derecho
-    [___, ("LSFT(KC_1)","!"), ("LSFT(KC_2)","\""), ("RALT(KC_3)","#"), ("LSFT(KC_4)","$"), ("LSFT(KC_5)","%"),
+    [("TG(4)","Game"), ("LSFT(KC_1)","!"), ("LSFT(KC_2)","\""), ("RALT(KC_3)","#"), ("LSFT(KC_4)","$"), ("LSFT(KC_5)","%"),
      ___, ("LSFT(KC_6)","&"), ("LSFT(KC_7)","/"), ("LSFT(KC_8)","("), ("LSFT(KC_9)",")"), ("LSFT(KC_0)","=")],
     [___, ("RALT(KC_GRAVE)","\\"), ("LSFT(KC_SLASH)","_"), ("KC_SLASH","-"), ("KC_RBRACKET","+"), ("LSFT(KC_RBRACKET)","*"),
      ("RALT(KC_1)","|"), ("RALT(KC_QUOTE)","{"), ("RALT(KC_LBRACKET)","["), ("RALT(KC_RBRACKET)","]"), ("RALT(KC_BSLASH)","}"), ("KC_MINUS","'")],
@@ -55,12 +55,50 @@ L3 = [  # FN / MEDIA / SYS -- ambos pulgares
      ___, ___, ___, ___, ___, ___],
 ]
 
+def _right_half_of(layer, override=None):
+    """Mitad derecha (columnas 6..11) copiada de otra capa; override = {(r, c): tecla}."""
+    override = override or {}
+    return [[override.get((r, c), layer[r][c]) for c in range(6, 12)] for r in range(4)]
+
+
+# Capas de juego. Se entra y se sale con SYM + Esc (TG(4)), como un interruptor.
+# GAME es la capa 4: queda POR ENCIMA de SYM (2), asi que dentro del juego el pulgar
+# de SYM apunta a la capa 6 (copia de SYM) para que SYM + Esc siga llegando a TG(4).
+_g_right = _right_half_of(L0, {(3, 7): ("MO(6)", "SYM")})
+L4 = [  # GAME -- mano izquierda en el juego, derecha para el chat
+    [("KC_ESCAPE","Esc"), ("KC_Q","Q"), ("KC_W","W"), ("KC_E","E"), ("KC_R","R"), ("KC_T","T")] + _g_right[0],
+    [("KC_LSHIFT","Shift"), ("KC_A","A"), ("KC_S","S"), ("KC_D","D"), ("KC_F","F"), ("KC_G","G")] + _g_right[1],
+    [("KC_LALT","Alt"), ("KC_Z","Z"), ("KC_X","X"), ("KC_C","C"), ("KC_V","V"), ("KC_B","B")] + _g_right[2],
+    # [3][0] y [3][1] = columna interior izquierda (junto a T y G): teclas que se pulsan
+    # sueltas, asi el estiramiento no importa; los modificadores quedan en meñique y pulgar
+    [("KC_TAB","Tab"), ("KC_ENTER","Enter"), HOLE, ("KC_LCTRL","Ctrl"), ("KC_SPACE","Space"), ("MO(5)","G-FN")] + _g_right[3],
+]
+
+L5 = [  # GAME-FN -- pulgar izquierdo interior, solo dentro de GAME
+    [___, ("KC_1","1"), ("KC_2","2"), ("KC_3","3"), ("KC_4","4"), ("KC_5","5")] + [___] * 6,
+    [___, ("KC_F1","F1"), ("KC_F2","F2"), ("KC_F3","F3"), ("KC_F4","F4"), ("KC_F5","F5")] + [___] * 6,
+    [___, ("KC_6","6"), ("KC_7","7"), ("KC_8","8"), ("KC_9","9"), ("KC_0","0"), HOLE] + [___] * 5,
+    [___, ___, HOLE, ___, ___, ___] + [___] * 6,
+]
+
+# SYM dentro del juego: igual que L2 (con el mismo TG(4) en Esc para salir), salvo
+# que no lleva a FN: en GAME esa tecla es Space.
+L6 = [row[:] for row in L2]
+L6[3][4] = ___
+
 LAYERS = [
     ("0 · BASE", "QWERTY español (SO en layout 'es')", L0),
     ("1 · NUM / NAV", "pulgar izquierdo", L1),
     ("2 · SYM", "pulgar derecho", L2),
     ("3 · FN / MEDIA / SYS", "ambos pulgares", L3),
+    ("4 · GAME", "SYM + Esc entra y sale", L4),
+    ("5 · GAME-FN", "pulgar izq. interior, dentro de GAME", L5),
+    ("6 · SYM (en GAME)", "pulgar derecho, dentro de GAME", L6),
 ]
 
-# Posiciones cuya ubicacion fisica esta SIN CONFIRMAR (ver PLAN.md)
-UNCONFIRMED = {(0, 6), (1, 6), (3, 0), (3, 1), (3, 9), (3, 10), (3, 11)}
+# Posiciones cuya ubicacion fisica esta SIN CONFIRMAR (ver PLAN.md).
+# Confirmadas con la pestaña Keymap de Vial (46 teclas, 3 pulgares por lado):
+#   [3][0], [3][1]            = columna interior izquierda (junto a T y G), arriba / abajo
+#   [0][6], [1][6]            = columna interior derecha (junto a Y y H), arriba / abajo
+#   [3][9], [3][10], [3][11]  = columna exterior derecha (meñique, junto a P/Ñ/-)
+UNCONFIRMED = set()
