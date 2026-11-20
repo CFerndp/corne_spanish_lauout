@@ -96,9 +96,8 @@ LAYERS = [
     ("6 · SYM (en GAME)", "pulgar derecho, dentro de GAME", L6),
 ]
 
-# Posiciones cuya ubicacion fisica esta SIN CONFIRMAR (ver PLAN.md).
-# Confirmadas con la pestaña Keymap de Vial (46 teclas, 3 pulgares por lado):
+# Posicion fisica de las teclas de la fila 3 de la matriz (ver docs/diseno.md):
 #   [3][0], [3][1]            = columna interior izquierda (junto a T y G), arriba / abajo
 #   [0][6], [1][6]            = columna interior derecha (junto a Y y H), arriba / abajo
 #   [3][9], [3][10], [3][11]  = columna exterior derecha (meñique, junto a P/Ñ/-)
-UNCONFIRMED = set()
+#   [3][3..5], [3][6..8]      = pulgares; [3][5] y [3][6] son de 1,5u

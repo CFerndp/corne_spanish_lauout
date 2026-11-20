@@ -25,16 +25,16 @@ productividad es real, dura poco, pero es real.
 
 Objetivo: dedos en la fila base y pulgares. **Nada de capas todavía.**
 
-- Imprime el diagrama (`docs/corne-es-layout.png`) y ponlo al lado de la pantalla.
+- Imprime las tarjetas ([`corne-es-layout.pdf`](corne-es-layout.pdf)) y ponlas al lado de la pantalla.
 - **No mires el teclado.** Mira el diagrama. Si miras las teclas, aprendes a mirar teclas.
 - Sesiones de 15 minutos, dos o tres al día. Mejor que una hora seguida: esto es memoria
   motora, y consolida descansando.
-- Texto en castellano normal, con acentos y `ñ`. La tecla `´` (a la derecha del `Super`
-  derecho) es la que más se te va a resistir de la base.
+- Texto en castellano normal, con acentos y `ñ`. La tecla `´` (a la derecha de la `Ñ`)
+  es la que más se te va a resistir de la base.
 
 ### Fase 2 — días 4–7: los pulgares y las capas
 
-Objetivo: que mantener `MO` con el pulgar no te obligue a mover la mano.
+Objetivo: que mantener una capa con el pulgar no te obligue a mover la mano.
 
 Drills concretos, repitiendo la misma secuencia 20 veces hasta que salga sin mirar:
 
@@ -42,7 +42,7 @@ Drills concretos, repitiendo la misma secuencia 20 veces hasta que salga sin mir
 Capa NUM:  fechas y números de teléfono; 1024, 3.14, 2026-09-28
 Capa SYM:  () => {}    [0]    a.b();    "texto"    /home/user/.config
 Capa SYM:  <div></div>    -> =>    !=  ==  &&  ||    #include
-Navegación: moverte por un fichero solo con MO(1) y las flechas, sin ratón
+Navegación: moverte por un fichero solo con NUM y las flechas, sin ratón
 ```
 
 El de `() => {}` es el que más rendimiento da por minuto invertido.
@@ -63,7 +63,7 @@ al principio: si `@` te sale mal veinte veces, se mueve; si nunca usas `½`, se 
 |---|---|
 | Base, en castellano | [monkeytype](https://monkeytype.com) en español, con *punctuation* y *numbers* activados |
 | Letras que fallas más | [keybr](https://keybr.com) — genera texto con tus letras débiles |
-| Sin salir de la terminal | `sudo pacman -S ttyper` y luego `ttyper -w 50` |
+| Sin salir de la terminal | [ttyper](https://github.com/max-niederman/ttyper): `ttyper -w 50` |
 | Símbolos y código | [typelit.io](https://typelit.io) o, mejor, **reescribe a mano un fichero de tu propio proyecto** |
 
 Lo de reescribir tu propio código no es un truco menor: entrena exactamente la mezcla de
@@ -80,15 +80,16 @@ símbolos que tú usas, que no es la de ningún test genérico.
 
 Los símbolos van un par de semanas por detrás de las letras. Es lo esperable.
 
-## Dos cosas de tu configuración concreta
+## Atajos con números
 
-- **Los atajos con `Super`**: solo tienes `Super` en el pulgar derecho. Para `Super`+número
-  necesitas los dos pulgares a la vez (derecho en `Super`, izquierdo en `MO(1)`) más el
-  dedo del dígito. Se puede, pero practícalo aparte el primer día: en Hyprland lo usas
-  constantemente.
-- **`Ctrl`+dígito** (pestañas del editor y la terminal) va con `Ctrl` interior derecho
-  (`[0][6]`, arriba a la derecha) + `MO(1)` con el pulgar izquierdo. Ese es el motivo de que
-  ese `Ctrl` siga ahí.
+- **Super + número** (cambiar de escritorio en muchos gestores de ventanas) y **Ctrl +
+  número** (pestañas del editor y la terminal): mantén **NUM** con el pulgar izquierdo. La
+  fila de arriba pasa a ser `1 … 0` y en `A S D F` tienes Super, Alt, Shift y Ctrl.
+- Para Ctrl + un número de la mano izquierda también tienes el **Ctrl interior derecho**
+  (junto a la Y), así no se juntan dos teclas en el mismo dedo.
+
+Practícalo aparte el primer día: si usas un gestor de ventanas en mosaico, lo usarás todo el
+rato.
 
 ## Ergonomía, que también se aprende
 

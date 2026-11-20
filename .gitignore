@@ -1,2 +1,11 @@
 __pycache__/
 *.pyc
+.venv/
+
+# generado por keycaps/build_caps.py (cientos de MB): se publica en los Releases
+keycaps/out/
+keycaps/out_flat/
+
+# configuración local de herramientas
+.claude/
+.serena/
