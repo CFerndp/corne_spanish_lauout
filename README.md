@@ -8,6 +8,8 @@ y **keycaps imprimibles en 3D** a 4 colores con las leyendas de cada capa.
 Probado en un **Pilot W-CORNE** (Corne v4.1 de 46 teclas: 3×6 por mano, una columna interior
 de 2 teclas a cada lado y 3 pulgares por mano, el más interior de 1,5u).
 
+![El teclado con los keycaps impresos](corne_example.jpg)
+
 ![Diagrama de las capas](docs/corne-es-layout.png)
 
 ## Qué hay aquí
@@ -93,7 +95,8 @@ usan las mismas combinaciones que vienen serigrafiadas en un teclado español.
 ## Keycaps impresos
 
 [`keycaps/`](keycaps/) genera las 46 teclas para switches MX a 4 colores (cuerpo, letra,
-capa NUM y capa SYM). Probadas en una Anycubic Kobra S1 con ACE Pro y boquilla de 0,4.
+capa NUM y capa SYM). Las de la foto de arriba son la placa esculpida completa, impresa en
+una Anycubic Kobra S1 con ACE Pro y boquilla de 0,4.
 
 ![Placa de keycaps](keycaps/plate_preview.png)
 
