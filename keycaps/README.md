@@ -7,6 +7,9 @@ cambian las teclas.
 Probado en una **Anycubic Kobra S1 con ACE Pro y boquilla de 0,4**: las teclas de prueba
 encajan en el switch y las leyendas salen limpias.
 
+**Para imprimirlas no hace falta generarlas:** los STL están en la página de
+[Releases](https://github.com/CFerndp/corne-es-layout/releases) del repositorio.
+
 ![Placa de keycaps](plate_preview.png)
 
 ## Qué lleva cada tecla
@@ -119,14 +122,22 @@ color, repara micro-agujeros de la malla, comprueba que es estanca y escribe 3MF
 
 ## Imprimirlas
 
-Configuración del slicer paso a paso: [`GUIA_SLICER.md`](GUIA_SLICER.md).
+Se imprimieron con el **perfil de serie** de Anycubic Slicer Next para la Kobra S1
+(«0.20mm Standard», boquilla de 0,4), sin cambiar nada. Importa los 4 STL de una tecla o de
+la placa **a la vez, como un solo objeto con varias partes**, y asigna a cada parte su
+filamento (`cap` = 1, `base` = 2, `num` = 3, `sym` = 4).
 
 1. **Imprime antes una tecla suelta** (por ejemplo la F) y pruébala en un switch: debe
    entrar con presión firme y no bailar.
 2. Si no encaja bien, imprime la **probeta**: 4 teclas sin leyenda con distinta holgura,
    marcadas con 1 a 4 muescas en el borde trasero (−0,05 / ±0 / +0,05 / +0,10 mm). Pon el
    valor de la que encaje en `STEM_CLEAR` y regenera.
-3. Imprime la placa: los 4 STL `plate_corne.*.stl` a la vez, como un solo objeto con 4 partes.
+3. Imprime la placa: los 4 STL `plate_corne.*.stl`.
+
+Lo que más alarga una impresión multicolor son los cambios de color, que se hacen en cada
+capa con leyendas. Por eso conviene **no usar altura de capa variable** (añade capas justo
+donde están las leyendas) e **imprimir las teclas de prueba de una en una**: teclas de filas
+distintas no comparten capas y los cambios se suman.
 
 Material: PETG o PLA+ (el PLA normal se ablanda con el calor de la mano).
 
