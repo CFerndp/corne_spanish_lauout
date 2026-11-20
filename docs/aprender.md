@@ -54,7 +54,11 @@ Ya se aprende programando, no practicando. Pero con una disciplina:
 > Cada vez que dudes más de dos segundos, o que un símbolo te salga incómodo, **apúntalo**
 > en `notas.md` en vez de aguantarte.
 
-Esas notas son el material de la v2. Un layout se ajusta con datos de uso, no de un tirón
+Esas notas son el material de la v2.
+
+Si juegas, deja el **modo juego** ([`modo-juego.md`](modo-juego.md)) para cuando la base ya
+te salga sola: cambia la mano izquierda y mezclar los dos mapas al principio frena el
+aprendizaje. Un layout se ajusta con datos de uso, no de un tirón
 al principio: si `@` te sale mal veinte veces, se mueve; si nunca usas `½`, se quita.
 
 ## Herramientas

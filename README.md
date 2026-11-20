@@ -19,6 +19,7 @@ de 2 teclas a cada lado y 3 pulgares por mano, el más interior de 1,5u).
 | [`corne_es_dev.vil`](corne_es_dev.vil) | el layout, listo para cargar en Vial |
 | [`docs/corne-es-layout.pdf`](docs/corne-es-layout.pdf) | tarjetas A4 recortables, una por capa, para pegar en la pared |
 | [`docs/aprender.md`](docs/aprender.md) | cómo acostumbrarse al teclado: plan por fases y ejercicios |
+| [`docs/modo-juego.md`](docs/modo-juego.md) | el modo juego: cómo entrar, qué tiene y cómo configurar el juego |
 | [`docs/diseno.md`](docs/diseno.md) | el porqué de cada decisión, con la tabla de `es` verificada |
 | [`keycaps/`](keycaps/) | generador de keycaps MX imprimibles a 4 colores |
 | [Releases](https://github.com/CFerndp/corne_spanish_lauout/releases) | **los STL listos para imprimir**, sin necesidad de generarlos |
@@ -60,20 +61,19 @@ como un interruptor.
 
 ### Modo juego
 
-Pensado para juegos con la mano izquierda en el teclado y la derecha en el ratón.
-**SYM + Esc** activa y desactiva el modo, como un interruptor. Al desenchufar el teclado
-vuelve siempre al modo normal.
+Para jugar con la mano izquierda en el teclado y la derecha en el ratón. **SYM + Esc** lo
+activa y lo desactiva, como un interruptor; al desenchufar el teclado vuelve siempre al modo
+normal.
 
 ```
- Esc    Q  W  E  R  T  [Tab  ]      ← columna interior: teclas que se pulsan sueltas
+ Esc    Q  W  E  R  T  [Tab  ]
  Shift  A  S  D  F  G  [Enter]
  Alt    Z  X  C  V  B
-          Ctrl  Space  G-FN         ← pulgares
+          Ctrl  Space  G-FN
 ```
 
-- Los modificadores (Shift, Alt, Ctrl) quedan en el meñique y el pulgar, en reposo.
-- La mano derecha no cambia, así que el chat funciona como siempre.
-- La capa FN (F6–F12 y multimedia) no está disponible dentro del modo juego.
+La mano derecha no cambia, así que el chat funciona como siempre. Cómo usarlo y cómo
+configurar las habilidades del juego: [`docs/modo-juego.md`](docs/modo-juego.md).
 
 ## Llevarlo a otro ordenador
 

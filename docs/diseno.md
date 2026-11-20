@@ -80,6 +80,8 @@ Detalles que condicionan el diseño:
 
 ## Modo juego
 
+Cómo se usa: [`modo-juego.md`](modo-juego.md). Aquí, por qué está hecho así.
+
 - **Capa 4 · GAME**: mano izquierda adaptada al juego, mano derecha igual que BASE.
   Los modificadores van al meñique (Shift, Alt) y al pulgar (Ctrl); Tab y Enter, que se
   pulsan sueltos, a la columna interior, donde estirar el índice no molesta.
