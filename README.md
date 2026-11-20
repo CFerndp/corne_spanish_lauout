@@ -21,7 +21,7 @@ de 2 teclas a cada lado y 3 pulgares por mano, el más interior de 1,5u).
 | [`docs/aprender.md`](docs/aprender.md) | cómo acostumbrarse al teclado: plan por fases y ejercicios |
 | [`docs/diseno.md`](docs/diseno.md) | el porqué de cada decisión, con la tabla de `es` verificada |
 | [`keycaps/`](keycaps/) | generador de keycaps MX imprimibles a 4 colores |
-| [Releases](https://github.com/CFerndp/corne-es-layout/releases) | **los STL listos para imprimir**, sin necesidad de generarlos |
+| [Releases](https://github.com/CFerndp/corne_spanish_lauout/releases) | **los STL listos para imprimir**, sin necesidad de generarlos |
 
 ## Cargar el layout
 
@@ -107,7 +107,7 @@ una Anycubic Kobra S1 con ACE Pro y boquilla de 0,4.
 - **Variante plana** (`--flat`): mucho más rápida de imprimir.
 
 **Los STL ya generados** (placa esculpida, placa plana, tecla de prueba y probeta) están
-en la página de [Releases](https://github.com/CFerndp/corne-es-layout/releases): no hace
+en la página de [Releases](https://github.com/CFerndp/corne_spanish_lauout/releases): no hace
 falta instalar nada para imprimirlas. Detalles, cómo generarlas y cómo imprimirlas:
 [`keycaps/README.md`](keycaps/README.md).
 

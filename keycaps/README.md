@@ -10,7 +10,7 @@ y boquilla de 0,4**: las 46 teclas encajan en los switches y las leyendas salen 
 ![Keycaps impresos y montados](../corne_example.jpg)
 
 **Para imprimirlas no hace falta generarlas:** los STL están en la página de
-[Releases](https://github.com/CFerndp/corne-es-layout/releases) del repositorio.
+[Releases](https://github.com/CFerndp/corne_spanish_lauout/releases) del repositorio.
 
 ![Placa de keycaps](plate_preview.png)
 
